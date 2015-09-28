@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="d1edb2b9cf329c3ada80ab0289c48705c37518f46328d61366f036d2a34e7d39.html">Test create for web RTC guest </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 04:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/cross.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="error-color">Test create for web RTC guest<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">107.28s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="54f0734b5797311f134b4d8fd8d56319627429b1a89dfed36662370f8ac48341.html">Create Group For Guest (tag)</a>
+                        <a class="tagLink" href="1a6c4622dbb8cc5fe9da5ec80e43a371e377abdbb83c63bd0c7329609a9a01bb.html">Server (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="bf4e8825205307e2700b9721390b7732_NONE.png" alt="" title="Start browser" width="1034"/>
+                <img src="5034d482e216964e76c8daeda8011178_NONE.png" alt="" title="Click group conf" width="1366"/>
+                <img src="42d90f4912f29b5f418df86ba4e267b0_NONE.png" alt="" title="Click group conf" width="1366"/>
+                <img src="389d202e37aa4d1757f82d38d851f81e_NONE.png" alt="" title="Click create conf" width="1366"/>
+                <img src="43d8e44e322f4ba5dc2d1b5a4b8f6d1b_NONE.png" alt="" title="New create group public" width="1366"/>
+                <img src="b5f9087f87176ad503be3b4b96f78240_NONE.png" alt="" title="New create group public" width="1366"/>
+                <img src="4422746bfaf398b0e25603fd2961c233_NONE.png" alt="" title="Check conference mode" width="1366"/>
+                <img src="4ce795a2b3da0eab8b2d01341e2fed9a_NONE.png" alt="" title="Check conference mode" width="1366"/>
+                <img src="0e237d272c4b22047fb848db764d5c0b_NONE.png" alt="" title="Enter name conference group: &lt;span class='step-parameter'&gt;Test group for Guest&lt;/span&gt;" width="1366"/>
+                <img src="5a82573fee9667fdae135e49182db230_NONE.png" alt="" title="Enter name conference group: &lt;span class='step-parameter'&gt;Test group for Guest&lt;/span&gt;" width="1366"/>
+                <img src="c5c6de6e265584f34ae402df58dab778_NONE.png" alt="" title="Check host for group" width="1366"/>
+                <img src="7241aff31f900cb1d1c01b1dd75b4b53_NONE.png" alt="" title="Check host for group" width="1366"/>
+                <img src="d989fa64d6ebdab86264ee75e55c241f_NONE.png" alt="" title="Click checkbox allow" width="1366"/>
+                <img src="dd53e85d8591ef08175b2f5e28d2c911_NONE.png" alt="" title="Click checkbox allow" width="1366"/>
+                <img src="0eb1b591c503f363667f5e40d77c2bb8_NONE.png" alt="" title="Enter description: &lt;span class='step-parameter'&gt;Test description&lt;/span&gt;" width="1366"/>
+                <img src="684526b2224c4f2cfc441f7e7985aabb_NONE.png" alt="" title="Enter description: &lt;span class='step-parameter'&gt;Test description&lt;/span&gt;" width="1366"/>
+                <img src="419e6cb6ba9b09f327f166149b36ddff_NONE.png" alt="" title="Click save conference" width="1366"/>
+                <img src="0836371385b810814a8da4eb6b9c7faa_NONE.png" alt="" title="Expected result for group guest: &lt;span class='step-parameter'&gt;Группа добавлена&lt;/span&gt;" width="1366"/>
+                <img src="b5952addf3583ce3d5ec9c630a63cba3_NONE.png" alt="" title="Expected result for group guest: &lt;span class='step-parameter'&gt;Группа добавлена&lt;/span&gt;" width="1366"/>
+                <img src="b7362298062b2ec8971102f5bb846555_NONE.png" alt="" title="Edit group rtc guest" width="1366"/>
+                <img src="b0f2535e1f4887e77a2fe09c79dd681f_NONE.png" alt="Expected enabled element was not enabled" title="Expected result rtc" width="1366"/>
+                <img src="a080d61ba452baa1026e39991b491d82_NONE.png" alt="Expected enabled element was not enabled" title="Expected result rtc" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build 19</span>
+</div>
+</body>
+</html>

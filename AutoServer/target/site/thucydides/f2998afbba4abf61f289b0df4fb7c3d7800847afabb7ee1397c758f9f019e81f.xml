@@ -1,0 +1,67 @@
+<acceptance-test-run title="Test a settings web" name="TestASettingsWeb" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12436" timestamp="2015-09-28T04:34:50.492-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Web Settings" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3951">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1317">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="e1a193a810bd8b2768734301cc0da37e_NONE.png"/>
+    </screenshots>
+    <description>Клик - &lt;strong&gt; Веб настройки&lt;/strong&gt;</description>
+  </test-step>
+  <test-group name="Данные для администратора" result="SUCCESS">
+    <screenshots>
+      <screenshot image="84f0f207e64cfda0394eb16f2844eb40_NONE.png"/>
+      <screenshot image="5c38a1c5eeb8d5a3bbc7599d07037c38_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="415">
+      <screenshots>
+        <screenshot image="82269a787dfbd396132bb59d3b325d70_NONE.png"/>
+      </screenshots>
+      <description>Ввод &apos;Имя&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="384">
+      <screenshots>
+        <screenshot image="82269a787dfbd396132bb59d3b325d70_NONE.png"/>
+      </screenshots>
+      <description>Ввод &apos;Мейла&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1834">
+      <screenshots>
+        <screenshot image="82269a787dfbd396132bb59d3b325d70_NONE.png"/>
+        <screenshot image="8430c49dadd2040a3f8f2bfe090da6be_NONE.png"/>
+      </screenshots>
+      <description>Ввод &apos;Телефона&apos;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="585">
+    <screenshots>
+      <screenshot image="5c38a1c5eeb8d5a3bbc7599d07037c38_NONE.png"/>
+    </screenshots>
+    <description>Клик URL для прямого скачивания</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1212">
+    <screenshots>
+      <screenshot image="eae2acbd074008497d40192aa6b48cd6_NONE.png"/>
+      <screenshot image="297f356dc1a7173c728f731de0be0f2b_NONE.png"/>
+    </screenshots>
+    <description>Ввод внешнего IP адреса</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1167">
+    <screenshots>
+      <screenshot image="84f0f207e64cfda0394eb16f2844eb40_NONE.png"/>
+    </screenshots>
+    <description>Клик на Логотип по умолчанию  </description>
+  </test-step>
+</acceptance-test-run>

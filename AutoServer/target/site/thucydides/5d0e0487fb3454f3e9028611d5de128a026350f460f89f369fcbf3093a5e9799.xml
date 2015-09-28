@@ -1,0 +1,54 @@
+<acceptance-test-run title="Test a settings web guest page invalid" name="TestASettingsWebGuestPageInvalid" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="15231" timestamp="2015-09-28T04:35:02.945-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Form for Admin invalid date" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3458">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-group name="Клик  &apos;Вход для администратора негативный тест&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="88597e7ec26fe0a9a29168d89cdf217c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="914">
+      <screenshots>
+        <screenshot image="a7058688675e6068cc44755277937e38_NONE.png"/>
+      </screenshots>
+      <description>Ввод </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="384">
+      <screenshots>
+        <screenshot image="d461ca463afb746df87b0b59aa321eae_NONE.png"/>
+        <screenshot image="c062bd4f5d30a82210fb5eb205f312e8_NONE.png"/>
+      </screenshots>
+      <description>Ввод невалидного логина</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="636">
+      <screenshots>
+        <screenshot image="fc51ac349e2a360744a37bf3f0b64f56_NONE.png"/>
+        <screenshot image="1da829fff0ecc2c9618d08e36f73c653_NONE.png"/>
+      </screenshots>
+      <description>Ввод пароля</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2593">
+      <screenshots>
+        <screenshot image="1da829fff0ecc2c9618d08e36f73c653_NONE.png"/>
+        <screenshot image="2d5873260cdd0f5ab694b15ae11e5479_NONE.png"/>
+      </screenshots>
+      <description>Клик &apos;Войти&apos;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="5272">
+    <screenshots>
+      <screenshot image="1b0cd1b7b6fb42eb47a27df4fc9f50ca_NONE.png"/>
+    </screenshots>
+    <description>Фактический результат</description>
+  </test-step>
+</acceptance-test-run>

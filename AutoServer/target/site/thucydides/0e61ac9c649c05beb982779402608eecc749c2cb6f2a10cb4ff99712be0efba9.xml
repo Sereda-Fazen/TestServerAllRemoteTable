@@ -1,0 +1,207 @@
+<acceptance-test-run title="Test group for users" name="TestGroupForUsers" steps="25" successful="25" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24685" timestamp="2015-09-28T04:40:29.615-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Add Group for users" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3992">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="968">
+    <screenshots>
+      <screenshot image="9162feaf783f5125b3c09a702465d0d8_NONE.png"/>
+      <screenshot image="a719b08c89273d25bdb2015cc0a3371a_NONE.png"/>
+    </screenshots>
+    <description>Click group</description>
+  </test-step>
+  <test-group name="Add group" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a719b08c89273d25bdb2015cc0a3371a_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="423">
+      <screenshots>
+        <screenshot image="9b861ddf3605d5ce684d07e8c7fdf7b1_NONE.png"/>
+      </screenshots>
+      <description>Input name group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="916">
+      <screenshots>
+        <screenshot image="bc14563630d86197e20378602c436393_NONE.png"/>
+        <screenshot image="f84f44655a75db6bc523c19766c3bd28_NONE.png"/>
+      </screenshots>
+      <description>Create group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1061">
+      <screenshots>
+        <screenshot image="f84f44655a75db6bc523c19766c3bd28_NONE.png"/>
+      </screenshots>
+      <description>Click edit group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="350">
+      <screenshots>
+        <screenshot image="8bcbd74501742026457545326c84f1ab_NONE.png"/>
+        <screenshot image="6d283b09af0dad558c015e6e4828b3c5_NONE.png"/>
+      </screenshots>
+      <description>Check group</description>
+    </test-step>
+  </test-group>
+  <test-group name="Edit group" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6d283b09af0dad558c015e6e4828b3c5_NONE.png"/>
+      <screenshot image="5e6d61f40974577ab738d53e716db4dc_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="327">
+      <screenshots>
+        <screenshot image="6d283b09af0dad558c015e6e4828b3c5_NONE.png"/>
+      </screenshots>
+      <description>Rename group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="437">
+      <screenshots>
+        <screenshot image="ffade70300ee8efc66085d2368fde34f_NONE.png"/>
+        <screenshot image="04ca2ff8b38bf494c4cf84c9dec2c818_NONE.png"/>
+      </screenshots>
+      <description>Rename input group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1342">
+      <screenshots>
+        <screenshot image="04ca2ff8b38bf494c4cf84c9dec2c818_NONE.png"/>
+        <screenshot image="ac280d5b1aef3a7b89d6802243d8ae54_NONE.png"/>
+      </screenshots>
+      <description>Rename save group</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1182">
+    <screenshots>
+      <screenshot image="ed2c409d9afa16d6b313efa0e4b40952_NONE.png"/>
+    </screenshots>
+    <description>Click group</description>
+  </test-step>
+  <test-group name="Adress book" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f71afc3835a1df87764fbf26886a8471_NONE.png"/>
+      <screenshot image="5473bbc7a46d152816a45ccc4d1b87a8_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1215">
+      <screenshots>
+        <screenshot image="f71afc3835a1df87764fbf26886a8471_NONE.png"/>
+        <screenshot image="1c84d7369cee0df61513fd8d2bec45e9_NONE.png"/>
+      </screenshots>
+      <description>Setting adress book</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="410">
+      <screenshots>
+        <screenshot image="08958b208b3544248473c1b755d08726_NONE.png"/>
+        <screenshot image="29c72db270a64e6e64c67f1bd091336d_NONE.png"/>
+      </screenshots>
+      <description>Radio group users</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="438">
+      <screenshots>
+        <screenshot image="29c72db270a64e6e64c67f1bd091336d_NONE.png"/>
+        <screenshot image="5b2ef58cb9454e5916cc974f4944de72_NONE.png"/>
+      </screenshots>
+      <description>Check group users</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="481">
+      <screenshots>
+        <screenshot image="5b2ef58cb9454e5916cc974f4944de72_NONE.png"/>
+        <screenshot image="63360f600d5ebe052851b290404004d8_NONE.png"/>
+      </screenshots>
+      <description>Choose group users</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="299">
+      <screenshots>
+        <screenshot image="3249d1ea8ed26a12f203b07436368998_NONE.png"/>
+        <screenshot image="da1d58d270cf5bc4f33f35b7e5e04243_NONE.png"/>
+      </screenshots>
+      <description>Choose group users</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1075">
+      <screenshots>
+        <screenshot image="736cb5fdc8ae939646261fffe257ac28_NONE.png"/>
+        <screenshot image="91965cb6214caac9a49b2ee5b247747c_NONE.png"/>
+      </screenshots>
+      <description>Apply group users</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="925">
+    <screenshots>
+      <screenshot image="5473bbc7a46d152816a45ccc4d1b87a8_NONE.png"/>
+    </screenshots>
+    <description>Click group</description>
+  </test-step>
+  <test-group name="Add group users" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ed2c409d9afa16d6b313efa0e4b40952_NONE.png"/>
+      <screenshot image="2c051518fcea46ee7efd7cf165f765bb_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="396">
+      <screenshots>
+        <screenshot image="f71afc3835a1df87764fbf26886a8471_NONE.png"/>
+        <screenshot image="abcec469766f09e5cf45f875492f01cc_NONE.png"/>
+      </screenshots>
+      <description>Edit adress book</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="437">
+      <screenshots>
+        <screenshot image="349fe44c9f527f82ec5a10e19f392d93_NONE.png"/>
+        <screenshot image="e8fcb5b77ef3de41633743952d97e260_NONE.png"/>
+      </screenshots>
+      <description>Call ring</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="312">
+      <screenshots>
+        <screenshot image="068b38e6b949606e672d5238d021e06b_NONE.png"/>
+        <screenshot image="8699aa0998433e7b5093086e0c297021_NONE.png"/>
+      </screenshots>
+      <description>Work together</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="337">
+      <screenshots>
+        <screenshot image="130d373616a4c2b680770ff837325420_NONE.png"/>
+        <screenshot image="54762a607c54b698ab812eac97b50adf_NONE.png"/>
+      </screenshots>
+      <description>Create group conferention</description>
+    </test-step>
+  </test-group>
+  <test-group name="Delete group for users" result="SUCCESS">
+    <screenshots>
+      <screenshot image="938b4cd8bee1757f6841b06cbc88a097_NONE.png"/>
+      <screenshot image="eb6301b2554d1b3b69e56d6f8ca399d0_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="348">
+      <screenshots>
+        <screenshot image="2a83767900f2c2b592a9669ed02bc3a7_NONE.png"/>
+        <screenshot image="c80fd67d61d1cc302e07fcb4b290ef20_NONE.png"/>
+      </screenshots>
+      <description>Check delete</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="371">
+      <screenshots>
+        <screenshot image="857c07e3cd97d1efbea2982d23818aa7_NONE.png"/>
+        <screenshot image="d5fd89279cc1c89bd53a81709875fd91_NONE.png"/>
+      </screenshots>
+      <description>Delete group</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1377">
+      <screenshots>
+        <screenshot image="854d515565b86fcc6777b892b837d77b_NONE.png"/>
+        <screenshot image="d276ea81fcc2781eae7292031024dcfd_NONE.png"/>
+      </screenshots>
+      <description>Delete group ok</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="429">
+    <screenshots>
+      <screenshot image="8f93ebf94b5d2c31acfacb853ac3fd85_NONE.png"/>
+    </screenshots>
+    <description>Expected result group</description>
+  </test-step>
+</acceptance-test-run>

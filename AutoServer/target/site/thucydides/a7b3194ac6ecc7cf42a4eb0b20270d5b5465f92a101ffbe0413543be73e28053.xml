@@ -1,0 +1,270 @@
+<acceptance-test-run title="Test create for users for web RTC" name="TestCreateForUsersForWebRTC" steps="38" successful="29" failures="0" errors="1" skipped="8" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="129822" timestamp="2015-09-28T04:36:32.489-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="WebRTC Create Users" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3952">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1378">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="8a58c7e1bab154c8ba5a6062d9e357b8_NONE.png"/>
+    </screenshots>
+    <description>Click group conf</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1063">
+    <screenshots>
+      <screenshot image="574be659b071fee85ea6e8ed6eb5c211_NONE.png"/>
+      <screenshot image="829531920770ee2817868b768f6dec53_NONE.png"/>
+    </screenshots>
+    <description>Click create conf</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1278">
+    <screenshots>
+      <screenshot image="43d8e44e322f4ba5dc2d1b5a4b8f6d1b_NONE.png"/>
+      <screenshot image="5d5b3c240e3a17d04b571fb917593180_NONE.png"/>
+    </screenshots>
+    <description>New create group</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="629">
+    <screenshots>
+      <screenshot image="62df8ff84a29431b3550cebbab4dd59b_NONE.png"/>
+      <screenshot image="4317f0b2748e89b566866d939a6ea353_NONE.png"/>
+    </screenshots>
+    <description>Check conference mode</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="523">
+    <screenshots>
+      <screenshot image="0aeab41df4788c025d55d6fc15ad3227_NONE.png"/>
+      <screenshot image="79203e79297bc50782dc3f4f583233bf_NONE.png"/>
+    </screenshots>
+    <description>Enter name conference group: &lt;span class=&apos;step-parameter&apos;&gt;First test group&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="522">
+    <screenshots>
+      <screenshot image="9a4df93976fb101eeedece18688c3e43_NONE.png"/>
+      <screenshot image="36c2a3e06cce5b499f2f65a185d447c0_NONE.png"/>
+    </screenshots>
+    <description>Check host for group</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="347">
+    <screenshots>
+      <screenshot image="9418f8793393f674631968ea1c9f2b21_NONE.png"/>
+    </screenshots>
+    <description>Choose people conference all</description>
+  </test-step>
+  <test-group name="Choose for search: &lt;span class=&apos;step-parameter&apos;&gt;alex, sereda&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="70c74c95180bd382c73a19594c31ae73_NONE.png"/>
+      <screenshot image="ddc4797ac771bcd0bcef1824c1f778e0_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2533">
+      <screenshots>
+        <screenshot image="70c74c95180bd382c73a19594c31ae73_NONE.png"/>
+        <screenshot image="a614f52b8c84222d50b017b6d5715194_NONE.png"/>
+      </screenshots>
+      <description>Choose for search group: &lt;span class=&apos;step-parameter&apos;&gt;alex&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2727">
+      <screenshots>
+        <screenshot image="b5b3523ab980ea4c5299cd4169c1d7f5_NONE.png"/>
+        <screenshot image="622ab9da5c39b0f2dc9107f51ca90c95_NONE.png"/>
+      </screenshots>
+      <description>Choose for search group1: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Choose people conference" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c7f0cb3ffe18aeb1ffefec46fa49bfa3_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3483">
+      <screenshots>
+        <screenshot image="a5cf1ff6304e0a7830290b2a0d5aa668_NONE.png"/>
+      </screenshots>
+      <description>Choose user1</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3393">
+      <screenshots>
+        <screenshot image="55a140164eb0a15d0a55f956d6d96ac5_NONE.png"/>
+      </screenshots>
+      <description>Choose user2</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1420">
+      <screenshots>
+        <screenshot image="b47e3bd9e31bd0e3e509dfa7c91b3394_NONE.png"/>
+        <screenshot image="2bb1a1b32e9f21c7281dbaa92249392d_NONE.png"/>
+      </screenshots>
+      <description>Delete user2</description>
+    </test-step>
+  </test-group>
+  <test-group name="Choose users for id and mail: &lt;span class=&apos;step-parameter&apos;&gt;test, fazen, fazen7@mail.ru&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="16491704995fb500d67e768c3c6686d1_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6215">
+      <screenshots>
+        <screenshot image="3ecead953ab15659bb7594c043bcb7c9_NONE.png"/>
+      </screenshots>
+      <description>Chose people ID: &lt;span class=&apos;step-parameter&apos;&gt;test&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3307">
+      <screenshots>
+        <screenshot image="52f943b1d6d3cc39cffaf413806d728f_NONE.png"/>
+        <screenshot image="3ecead953ab15659bb7594c043bcb7c9_NONE.png"/>
+      </screenshots>
+      <description>Chose people mail: &lt;span class=&apos;step-parameter&apos;&gt;fazen, fazen7@mail.ru&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="416">
+    <screenshots>
+      <screenshot image="16491704995fb500d67e768c3c6686d1_NONE.png"/>
+    </screenshots>
+    <description>Choose data conference</description>
+  </test-step>
+  <test-group name="Choose data for nonrecurrent" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9b62e76834b6b7f702a3df8545715c04_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="493">
+      <screenshots>
+        <screenshot image="9b62e76834b6b7f702a3df8545715c04_NONE.png"/>
+        <screenshot image="d50275bcd9240755d2611afa8917d3c0_NONE.png"/>
+      </screenshots>
+      <description>Choose data click</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="466">
+      <screenshots>
+        <screenshot image="a450323c9706bbc75ff9c35df7fcf3eb_NONE.png"/>
+        <screenshot image="80e674637b78f3ac23f405a679d68d4f_NONE.png"/>
+      </screenshots>
+      <description>Choose check hours</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="481">
+      <screenshots>
+        <screenshot image="3696296de0eb38bc0b6545e940bdcfcd_NONE.png"/>
+        <screenshot image="560ef8912a27d2657d542a30d6636c55_NONE.png"/>
+      </screenshots>
+      <description>Choose check minute</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="441">
+      <screenshots>
+        <screenshot image="8a45ed4277e44024d987e9cf126ff4a6_NONE.png"/>
+        <screenshot image="3381db2a4cfe5111b05c066ea7acce7c_NONE.png"/>
+      </screenshots>
+      <description>Choose close time</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1513">
+      <screenshots>
+        <screenshot image="7e153e9362301414dff8bf3a6a56071b_NONE.png"/>
+        <screenshot image="b81361ddb93ef4fc260f2bc053191fc9_NONE.png"/>
+      </screenshots>
+      <description>Choose click region</description>
+    </test-step>
+  </test-group>
+  <test-group name="Choose data for every day" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b81361ddb93ef4fc260f2bc053191fc9_NONE.png"/>
+      <screenshot image="77fc19532f11151a6e1116a540fe7e5b_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="448">
+      <screenshots>
+        <screenshot image="b81361ddb93ef4fc260f2bc053191fc9_NONE.png"/>
+      </screenshots>
+      <description>Choose every week</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="471">
+      <screenshots>
+        <screenshot image="5ae8938c9ed2f867265ca304430a55c7_NONE.png"/>
+        <screenshot image="df591702b9107d9e4c904763d110b047_NONE.png"/>
+      </screenshots>
+      <description>Choose no week</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="883">
+      <screenshots>
+        <screenshot image="df591702b9107d9e4c904763d110b047_NONE.png"/>
+        <screenshot image="1d66c9bdb05cdc6f0f54aeb2d8a64f15_NONE.png"/>
+      </screenshots>
+      <description>Choose check monday</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="536">
+      <screenshots>
+        <screenshot image="1d66c9bdb05cdc6f0f54aeb2d8a64f15_NONE.png"/>
+      </screenshots>
+      <description>Choose time for week</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="474">
+      <screenshots>
+        <screenshot image="c8600ba1414dec22415e51ca68734331_NONE.png"/>
+        <screenshot image="7b3c933f1548f577feaffa85a457d42b_NONE.png"/>
+      </screenshots>
+      <description>Choose time now</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2675">
+    <screenshots>
+      <screenshot image="6700e1c89b65d0c5d282f6bbf742258d_NONE.png"/>
+      <screenshot image="f72c822befad5234adedc23a932f5ac0_NONE.png"/>
+    </screenshots>
+    <description>Enter description: &lt;span class=&apos;step-parameter&apos;&gt;Test description&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="372">
+    <screenshots>
+      <screenshot image="6da74dbeac2295e0d075d042798e3fe3_NONE.png"/>
+    </screenshots>
+    <description>Click save conference</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1588">
+    <screenshots>
+      <screenshot image="6700e1c89b65d0c5d282f6bbf742258d_NONE.png"/>
+      <screenshot image="f23c10ca8c0d41f0ed37a480c9e159fd_NONE.png"/>
+    </screenshots>
+    <description>Expected result for group: &lt;span class=&apos;step-parameter&apos;&gt;Группа добавлена&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="81423">
+    <screenshots>
+      <screenshot image="a080d61ba452baa1026e39991b491d82_NONE.png"/>
+    </screenshots>
+    <description>Edit group: &lt;span class=&apos;step-parameter&apos;&gt;Second test group&lt;/span&gt;</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown&#xd;
+[page.GroupConferention.GroupConference.setEditGroup(GroupConference.java:385), steps.GroupConferenceSteps.GroupConferenceSteps.editGroup(GroupConferenceSteps.java:197), tests.TestAuth.TestCreateForUsersForWebRTC(TestAuth.java:368)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="33">
+    <description>Run group</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="138">
+    <description>Click group conf</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="16">
+    <description>Edit group rtc</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="3">
+    <description>Expected result rtc</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Input login for RTC: &lt;span class=&apos;step-parameter&apos;&gt;sereda, 123456&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Click enter expected result: &lt;span class=&apos;step-parameter&apos;&gt;Пользователь авторизовался&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Expected result for exit from user: &lt;span class=&apos;step-parameter&apos;&gt;Время до начала конференции&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="445">
+    <description>Expected result delete group: &lt;span class=&apos;step-parameter&apos;&gt;Группа успешно удалена&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

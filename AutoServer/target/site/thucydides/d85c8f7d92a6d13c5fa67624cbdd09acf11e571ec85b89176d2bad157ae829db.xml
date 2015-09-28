@@ -1,0 +1,61 @@
+<acceptance-test-run title="Test a settings sip valid date" name="TestASettingsSipValidDate" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16891" timestamp="2015-09-28T04:34:33.583-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="SIP - valid date" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4261">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="911">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+    </screenshots>
+    <description>Кликул на сслыку &apos;Sip шлюз&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="746">
+    <screenshots>
+      <screenshot image="339eb4a3420728419869ccfec6a03a4b_NONE.png"/>
+      <screenshot image="e4edf4719406ce34128a754ce5885033_NONE.png"/>
+    </screenshots>
+    <description>Ввел сервер VoIP </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="523">
+    <screenshots>
+      <screenshot image="97525f9224bd73d63e083394bf4a6623_NONE.png"/>
+      <screenshot image="5b0b0620335989801e61ae2093dadf64_NONE.png"/>
+    </screenshots>
+    <description>Ввел  &apos;Логин&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="415">
+    <screenshots>
+      <screenshot image="ec403ac572f3bcb1e130e958625697a2_NONE.png"/>
+      <screenshot image="1f53de143adfbc372935cc6db70aead6_NONE.png"/>
+    </screenshots>
+    <description>Ввел &apos;Пароль&apos; </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="511">
+    <screenshots>
+      <screenshot image="ce827f80efe391f4bf01982eda6895c7_NONE.png"/>
+    </screenshots>
+    <description>Выбрал  регистрацию</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="379">
+    <screenshots>
+      <screenshot image="dbe21ab96f2a9f1101ab371e84e1d2a7_NONE.png"/>
+    </screenshots>
+    <description>Кликнул &apos;Сохранить&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7790">
+    <screenshots>
+      <screenshot image="483ef8d52a2ccff639ba267226f9f77d_NONE.png"/>
+    </screenshots>
+    <description>Expected assert sip valid date: &lt;span class=&apos;step-parameter&apos;&gt;Соединение успешное&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

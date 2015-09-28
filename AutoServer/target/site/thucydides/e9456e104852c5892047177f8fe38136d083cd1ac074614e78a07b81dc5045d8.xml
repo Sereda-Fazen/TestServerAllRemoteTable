@@ -1,0 +1,55 @@
+<acceptance-test-run title="Test a settings web security" name="TestASettingsWebSecurity" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10136" timestamp="2015-09-28T04:35:41.944-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Web Security" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4085">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1407">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="e1a193a810bd8b2768734301cc0da37e_NONE.png"/>
+    </screenshots>
+    <description>Клик - Безопасность</description>
+  </test-step>
+  <test-group name="Панель API" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0e6af2ad0ded3ba9120348807ba0e5f0_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="417">
+      <screenshots>
+        <screenshot image="0e6af2ad0ded3ba9120348807ba0e5f0_NONE.png"/>
+        <screenshot image="8617d1081af497cf16a5bdaba7ebad01_NONE.png"/>
+      </screenshots>
+      <description>Удалить &apos;ключ&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="335">
+      <screenshots>
+        <screenshot image="8617d1081af497cf16a5bdaba7ebad01_NONE.png"/>
+        <screenshot image="f19b2a69337d8744dac29cb8fc20a1c7_NONE.png"/>
+      </screenshots>
+      <description>Клик &apos;Сгенирировать ключ&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1097">
+      <screenshots>
+        <screenshot image="f19b2a69337d8744dac29cb8fc20a1c7_NONE.png"/>
+        <screenshot image="7c58c851640ee42bf2e38e62b95d263f_NONE.png"/>
+      </screenshots>
+      <description>Клик &apos;Применить&apos;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="267">
+    <screenshots>
+      <screenshot image="7c58c851640ee42bf2e38e62b95d263f_NONE.png"/>
+    </screenshots>
+    <description>&lt;strong&gt;Ожидаемый результат&lt;/strong&gt;</description>
+  </test-step>
+</acceptance-test-run>

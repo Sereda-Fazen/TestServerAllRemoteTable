@@ -1,0 +1,62 @@
+<acceptance-test-run title="Test a settings sip invalid server" name="TestASettingsSipInvalidServer" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16781" timestamp="2015-09-28T04:34:16.787-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="SIP - invalid server" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4072">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1416">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="e1a193a810bd8b2768734301cc0da37e_NONE.png"/>
+    </screenshots>
+    <description>Кликул на сслыку &apos;Sip шлюз&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="343">
+    <screenshots>
+      <screenshot image="1bd2769cc863d7bc9558596d0e6efb30_NONE.png"/>
+      <screenshot image="3d2df444ca7492999001fb23290e1f9f_NONE.png"/>
+    </screenshots>
+    <description>Ввел сервер VoIP </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="495">
+    <screenshots>
+      <screenshot image="38a5b911a4345c0fffb864f8893141e5_NONE.png"/>
+      <screenshot image="3044f9d5ea8cc2df4a947c48b34b37ae_NONE.png"/>
+    </screenshots>
+    <description>Ввел  &apos;Логин&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="534">
+    <screenshots>
+      <screenshot image="e5fbf48b9886da695299be991ca0e6a0_NONE.png"/>
+    </screenshots>
+    <description>Ввел &apos;Пароль&apos; </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="492">
+    <screenshots>
+      <screenshot image="f64ab725ae364bd875e41f53f424fea8_NONE.png"/>
+    </screenshots>
+    <description>Выбрал  регистрацию</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="417">
+    <screenshots>
+      <screenshot image="fe037faf849d80d233db9c5fe2593e78_NONE.png"/>
+    </screenshots>
+    <description>Кликнул &apos;Сохранить&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7702">
+    <screenshots>
+      <screenshot image="52befbf4183b9321c2c0b21ff2baa68a_NONE.png"/>
+      <screenshot image="58650b8df2a412b7844383ded122e6ad_NONE.png"/>
+    </screenshots>
+    <description>Expected assert wrong server: &lt;span class=&apos;step-parameter&apos;&gt;Неправильный сервер&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="0e61ac9c649c05beb982779402608eecc749c2cb6f2a10cb4ff99712be0efba9.html">Test group for users </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 04:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Test group for users<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">24.69s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="89aed1cfb5e7a516461a0d7e798fbeb1af5511e8556255981d93525ef8d4ee61.html">Add Group For Users (tag)</a>
+                        <a class="tagLink" href="1a6c4622dbb8cc5fe9da5ec80e43a371e377abdbb83c63bd0c7329609a9a01bb.html">Server (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="bf4e8825205307e2700b9721390b7732_NONE.png" alt="" title="Start browser" width="1034"/>
+                <img src="9162feaf783f5125b3c09a702465d0d8_NONE.png" alt="" title="Click group" width="1366"/>
+                <img src="a719b08c89273d25bdb2015cc0a3371a_NONE.png" alt="" title="Click group" width="1366"/>
+                <img src="9b861ddf3605d5ce684d07e8c7fdf7b1_NONE.png" alt="" title="Input name group" width="1366"/>
+                <img src="bc14563630d86197e20378602c436393_NONE.png" alt="" title="Create group" width="1366"/>
+                <img src="f84f44655a75db6bc523c19766c3bd28_NONE.png" alt="" title="Create group" width="1366"/>
+                <img src="f84f44655a75db6bc523c19766c3bd28_NONE.png" alt="" title="Click edit group" width="1366"/>
+                <img src="8bcbd74501742026457545326c84f1ab_NONE.png" alt="" title="Check group" width="1366"/>
+                <img src="6d283b09af0dad558c015e6e4828b3c5_NONE.png" alt="" title="Check group" width="1366"/>
+                <img src="6d283b09af0dad558c015e6e4828b3c5_NONE.png" alt="" title="Rename group" width="1366"/>
+                <img src="ffade70300ee8efc66085d2368fde34f_NONE.png" alt="" title="Rename input group" width="1366"/>
+                <img src="04ca2ff8b38bf494c4cf84c9dec2c818_NONE.png" alt="" title="Rename input group" width="1366"/>
+                <img src="04ca2ff8b38bf494c4cf84c9dec2c818_NONE.png" alt="" title="Rename save group" width="1366"/>
+                <img src="ac280d5b1aef3a7b89d6802243d8ae54_NONE.png" alt="" title="Rename save group" width="1366"/>
+                <img src="ed2c409d9afa16d6b313efa0e4b40952_NONE.png" alt="" title="Click group" width="1366"/>
+                <img src="f71afc3835a1df87764fbf26886a8471_NONE.png" alt="" title="Setting adress book" width="1366"/>
+                <img src="1c84d7369cee0df61513fd8d2bec45e9_NONE.png" alt="" title="Setting adress book" width="1366"/>
+                <img src="08958b208b3544248473c1b755d08726_NONE.png" alt="" title="Radio group users" width="1366"/>
+                <img src="29c72db270a64e6e64c67f1bd091336d_NONE.png" alt="" title="Radio group users" width="1366"/>
+                <img src="29c72db270a64e6e64c67f1bd091336d_NONE.png" alt="" title="Check group users" width="1366"/>
+                <img src="5b2ef58cb9454e5916cc974f4944de72_NONE.png" alt="" title="Check group users" width="1366"/>
+                <img src="5b2ef58cb9454e5916cc974f4944de72_NONE.png" alt="" title="Choose group users" width="1366"/>
+                <img src="63360f600d5ebe052851b290404004d8_NONE.png" alt="" title="Choose group users" width="1366"/>
+                <img src="3249d1ea8ed26a12f203b07436368998_NONE.png" alt="" title="Choose group users" width="1366"/>
+                <img src="da1d58d270cf5bc4f33f35b7e5e04243_NONE.png" alt="" title="Choose group users" width="1366"/>
+                <img src="736cb5fdc8ae939646261fffe257ac28_NONE.png" alt="" title="Apply group users" width="1366"/>
+                <img src="91965cb6214caac9a49b2ee5b247747c_NONE.png" alt="" title="Apply group users" width="1366"/>
+                <img src="5473bbc7a46d152816a45ccc4d1b87a8_NONE.png" alt="" title="Click group" width="1366"/>
+                <img src="f71afc3835a1df87764fbf26886a8471_NONE.png" alt="" title="Edit adress book" width="1366"/>
+                <img src="abcec469766f09e5cf45f875492f01cc_NONE.png" alt="" title="Edit adress book" width="1366"/>
+                <img src="349fe44c9f527f82ec5a10e19f392d93_NONE.png" alt="" title="Call ring" width="1366"/>
+                <img src="e8fcb5b77ef3de41633743952d97e260_NONE.png" alt="" title="Call ring" width="1366"/>
+                <img src="068b38e6b949606e672d5238d021e06b_NONE.png" alt="" title="Work together" width="1366"/>
+                <img src="8699aa0998433e7b5093086e0c297021_NONE.png" alt="" title="Work together" width="1366"/>
+                <img src="130d373616a4c2b680770ff837325420_NONE.png" alt="" title="Create group conferention" width="1366"/>
+                <img src="54762a607c54b698ab812eac97b50adf_NONE.png" alt="" title="Create group conferention" width="1366"/>
+                <img src="2a83767900f2c2b592a9669ed02bc3a7_NONE.png" alt="" title="Check delete" width="1366"/>
+                <img src="c80fd67d61d1cc302e07fcb4b290ef20_NONE.png" alt="" title="Check delete" width="1366"/>
+                <img src="857c07e3cd97d1efbea2982d23818aa7_NONE.png" alt="" title="Delete group" width="1366"/>
+                <img src="d5fd89279cc1c89bd53a81709875fd91_NONE.png" alt="" title="Delete group" width="1366"/>
+                <img src="854d515565b86fcc6777b892b837d77b_NONE.png" alt="" title="Delete group ok" width="1366"/>
+                <img src="d276ea81fcc2781eae7292031024dcfd_NONE.png" alt="" title="Delete group ok" width="1366"/>
+                <img src="8f93ebf94b5d2c31acfacb853ac3fd85_NONE.png" alt="" title="Expected result group" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build 19</span>
+</div>
+</body>
+</html>

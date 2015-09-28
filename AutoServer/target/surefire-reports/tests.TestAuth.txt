@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: tests.TestAuth
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 3, Skipped: 2, Time elapsed: 683.141 sec <<< FAILURE!
+TestCreateForUsersForWebRTC(tests.TestAuth)  Time elapsed: 129.821 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@692e028d
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at page.GroupConferention.GroupConference.setEditGroup(GroupConference.java:385)
+	at steps.GroupConferenceSteps.GroupConferenceSteps.editGroup(GroupConferenceSteps.java:197)
+	at tests.TestAuth.TestCreateForUsersForWebRTC(TestAuth.java:368)
+
+TestCreateForWebRTCGuest(tests.TestAuth)  Time elapsed: 107.285 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@6c9320c2
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at page.GroupConferention.WebRtc.setClickWerRTC(WebRtc.java:114)
+	at steps.GroupConferenceSteps.WebRTCSteps.expectedResultRtc(WebRTCSteps.java:37)
+	at tests.TestAuth.TestCreateForWebRTCGuest(TestAuth.java:210)
+
+TestLetDeleteUsersANdConference(tests.TestAuth)  Time elapsed: 14.28 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@44f24a20
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at page.Users.UsersPage.setHover(UsersPage.java:161)
+	at steps.UsersSteps.UsersSteps.actionHover(UsersSteps.java:61)
+	at tests.TestAuth.TestLetDeleteUsersANdConference(TestAuth.java:412)
+

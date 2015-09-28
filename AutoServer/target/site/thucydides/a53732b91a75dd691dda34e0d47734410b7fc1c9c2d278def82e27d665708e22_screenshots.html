@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="a53732b91a75dd691dda34e0d47734410b7fc1c9c2d278def82e27d665708e22.html">Test a settings SMTP for invalid </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 04:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Test a settings SMTP for invalid<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">18.01s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="4bc4130e033fb757fb209488063798e4f38c6ca25c1eeabcca71bf30302e52fb.html">Smtp Invalid Date (tag)</a>
+                        <a class="tagLink" href="1a6c4622dbb8cc5fe9da5ec80e43a371e377abdbb83c63bd0c7329609a9a01bb.html">Server (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="50301fa49e7e29ad6027dde35294f64e_NONE.png" alt="" title="Start browser" width="1034"/>
+                <img src="5034d482e216964e76c8daeda8011178_NONE.png" alt="" title="Click smtp page" width="1366"/>
+                <img src="dc34d749cd82a1078093d3dd61ba7291_NONE.png" alt="" title="Click smtp page" width="1366"/>
+                <img src="0713231ff2aacfac506cce063a67d937_NONE.png" alt="" title="Check type auth" width="1366"/>
+                <img src="850aaaa1b832203071d8cba3011e39d9_NONE.png" alt="" title="Enter host: &lt;span class='step-parameter'&gt;test&lt;/span&gt;" width="1366"/>
+                <img src="14791b8aa886ee0cf9cc1d3b05288c9c_NONE.png" alt="" title="Enter host: &lt;span class='step-parameter'&gt;test&lt;/span&gt;" width="1366"/>
+                <img src="81b46e7d9e17c0359f8e5feae634b8d9_NONE.png" alt="" title="Enter port: &lt;span class='step-parameter'&gt;25&lt;/span&gt;" width="1366"/>
+                <img src="8fe8576378ac01186e65467f87d92e32_NONE.png" alt="" title="Enter port: &lt;span class='step-parameter'&gt;25&lt;/span&gt;" width="1366"/>
+                <img src="2d6efef17072a39d9efa1c9dea524e95_NONE.png" alt="" title="Enter login SMTP: &lt;span class='step-parameter'&gt;sereda&lt;/span&gt;" width="1366"/>
+                <img src="b9b0b7343fa9bc3ef8751dd39877bab0_NONE.png" alt="" title="Enter pass SMTP: &lt;span class='step-parameter'&gt;123456&lt;/span&gt;" width="1366"/>
+                <img src="bad4255cddb1121e308b67cc08b433fa_NONE.png" alt="" title="Enter pass SMTP: &lt;span class='step-parameter'&gt;123456&lt;/span&gt;" width="1366"/>
+                <img src="72b24000fb4f31c8001f1e809b8f9707_NONE.png" alt="" title="Click ssl" width="1366"/>
+                <img src="2453843bf820b5b07543c9b0a8001728_NONE.png" alt="" title="Click ssl" width="1366"/>
+                <img src="46e61e59209b935c184a1776eb73ad6c_NONE.png" alt="" title="Enter email admin: &lt;span class='step-parameter'&gt;sereda@trueconf.ua&lt;/span&gt;" width="1366"/>
+                <img src="f7a5b805ff33811c35780803b6617482_NONE.png" alt="" title="Click connected stmp" width="1366"/>
+                <img src="c318e7034ee706b6faa34b683f34c3c7_NONE.png" alt="" title="Add assert smtp: &lt;span class='step-parameter'&gt;Ошибка подключения к SMTP&lt;/span&gt;" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build 19</span>
+</div>
+</body>
+</html>

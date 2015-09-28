@@ -1,0 +1,62 @@
+<acceptance-test-run title="Test a settings sip invalid autorization" name="TestASettingsSipInvalidAutorization" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16753" timestamp="2015-09-28T04:34:00.010-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="SIP - invalid authorization" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4054">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1268">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+    </screenshots>
+    <description>Кликул на сслыку &apos;Sip шлюз&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="613">
+    <screenshots>
+      <screenshot image="a5d21344b97b363db9ffa4660a705326_NONE.png"/>
+      <screenshot image="6628388251b671cf51f78c53a1038211_NONE.png"/>
+    </screenshots>
+    <description>Ввел сервер VoIP </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="604">
+    <screenshots>
+      <screenshot image="545d24e310cd1321bc6e573ab32ef83b_NONE.png"/>
+      <screenshot image="e360e91baf74d0374e209d3b1d6ad38a_NONE.png"/>
+    </screenshots>
+    <description>Ввел  &apos;Логин&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="525">
+    <screenshots>
+      <screenshot image="7df849f3039110413706357c486e1387_NONE.png"/>
+      <screenshot image="fc1ed5c379752cab65a2b241f0a3031e_NONE.png"/>
+    </screenshots>
+    <description>Ввел &apos;Пароль&apos; </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="670">
+    <screenshots>
+      <screenshot image="e3d5cee09e337a18b4821eaeb19ffd74_NONE.png"/>
+    </screenshots>
+    <description>Выбрал  регистрацию</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="505">
+    <screenshots>
+      <screenshot image="e3d5cee09e337a18b4821eaeb19ffd74_NONE.png"/>
+    </screenshots>
+    <description>Кликнул &apos;Сохранить&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7271">
+    <screenshots>
+      <screenshot image="c4b0f91cb4785008f6d9ab9111a67563_NONE.png"/>
+      <screenshot image="d5550aed8993d9914dcd60a9214d5b99_NONE.png"/>
+    </screenshots>
+    <description>Expected assert wrong login: &lt;span class=&apos;step-parameter&apos;&gt;Неправильный логин&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

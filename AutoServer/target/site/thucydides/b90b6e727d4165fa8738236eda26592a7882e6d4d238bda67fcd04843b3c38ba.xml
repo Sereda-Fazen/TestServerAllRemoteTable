@@ -1,0 +1,122 @@
+<acceptance-test-run title="Test a settings net" name="TestASettingsNet" steps="15" successful="15" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="45169" timestamp="2015-09-28T04:31:13.363-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Settings Net" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3447">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1450">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="5250f7984377149164407751d29c191a_NONE.png"/>
+    </screenshots>
+    <description>Клик на ссылку - &lt;strong&gt;Настройки сети&lt;/strong&gt;</description>
+  </test-step>
+  <test-group name="Внутрений  адрес&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="38428816819b7218272fb7759bf62c88_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="362">
+      <screenshots>
+        <screenshot image="38428816819b7218272fb7759bf62c88_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Использовать все IP адреса&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="381">
+      <screenshots>
+        <screenshot image="781664cc3c3bb613811fd7796b7cbab4_NONE.png"/>
+        <screenshot image="73bd1fcce1a092b5a00060ad8b678a0f_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Добавить Ip&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="792">
+      <screenshots>
+        <screenshot image="beb6aa2b6f6189d4d1a33894b7716f30_NONE.png"/>
+        <screenshot image="c82f7d7cda1dea5409174c90d628026a_NONE.png"/>
+      </screenshots>
+      <description>Ввод  - &apos;Добавить Ip адрес и порт&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="548">
+      <screenshots>
+        <screenshot image="fce45bc4ebd7626b39805f729358f084_NONE.png"/>
+        <screenshot image="57262829be9829f85414f5eac32243a1_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Сброс Ip адрес&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="440">
+      <screenshots>
+        <screenshot image="dd2d36cdf6c63d167d66be658b1c978d_NONE.png"/>
+        <screenshot image="85499404b3e6f42c71f478032492db14_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Использовать все IP адреса&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3531">
+      <screenshots>
+        <screenshot image="781664cc3c3bb613811fd7796b7cbab4_NONE.png"/>
+        <screenshot image="4d4757e609210bb90e8a5e644f83ad77_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Применить Ip адрес&apos; </description>
+    </test-step>
+  </test-group>
+  <test-group name="Внешний адрес&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4d4757e609210bb90e8a5e644f83ad77_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="502">
+      <screenshots>
+        <screenshot image="4d4757e609210bb90e8a5e644f83ad77_NONE.png"/>
+        <screenshot image="b81a465440781e49ed93649825e7aff6_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Указать&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="321">
+      <screenshots>
+        <screenshot image="e31c601ff6eabef0187a1575f1e35b86_NONE.png"/>
+        <screenshot image="e28a8237727c701d860453e9d14d3b44_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Добавить Ip адрес&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="717">
+      <screenshots>
+        <screenshot image="846a8d239e72c04edd658a8152d18358_NONE.png"/>
+        <screenshot image="2ab25f654a5494c27045ccb9cccdae59_NONE.png"/>
+      </screenshots>
+      <description>Ввод  - &apos;Добавить Ip адрес и порт&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="462">
+      <screenshots>
+        <screenshot image="175fb16202607f5868c4325dc193a065_NONE.png"/>
+        <screenshot image="0f0ae06d8b40bd53d2f4d658c16633c1_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Сброс Ip адрес&apos; </description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3404">
+      <screenshots>
+        <screenshot image="e31c601ff6eabef0187a1575f1e35b86_NONE.png"/>
+        <screenshot image="4d4757e609210bb90e8a5e644f83ad77_NONE.png"/>
+      </screenshots>
+      <description>Клик - &apos;Применить Ip адрес&apos; </description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="499">
+    <screenshots>
+      <screenshot image="b81a465440781e49ed93649825e7aff6_NONE.png"/>
+    </screenshots>
+    <description>Клик - &apos;Указать&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="25921">
+    <screenshots>
+      <screenshot image="e31c601ff6eabef0187a1575f1e35b86_NONE.png"/>
+      <screenshot image="2075ad3c4f47e4577343d11fe6cc5aa1_NONE.png"/>
+    </screenshots>
+    <description>Клик перезагрузка сервера</description>
+  </test-step>
+</acceptance-test-run>

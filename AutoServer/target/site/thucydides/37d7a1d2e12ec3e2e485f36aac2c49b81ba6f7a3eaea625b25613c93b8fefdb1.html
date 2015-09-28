@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/core.css"/>
+    <link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet" />
+    <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css"/>
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="jit/Extras/excanvas.js"></script><![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="jqplot/jquery.jqplot.min.js"></script>
+    <script type="text/javascript" src="jqplot/plugins/jqplot.pieRenderer.min.js"></script>
+
+    <link type="text/css" href="jqueryui/css/start/jquery-ui-1.8.18.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+
+    <script class="code" type="text/javascript">$(document).ready(function () {
+
+        // Results table
+        $('#tag-list-table').dataTable( {
+            "aaSorting": [[ 1, "asc" ]],
+            "bJQueryUI": true,
+            "iDisplayLength": 25
+        } );
+    })
+    ;
+    </script>
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a>  > Test Auth > Tags</span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 04:41</span>
+    <br style="clear:left"/>
+</div>
+
+
+
+   <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <table>
+                 <tr>
+                   <td>
+                    <div><h3 id="test_list_title">Tags</h3></div>
+                    <div id="test_list_tests" class="table">
+                        <div class="test-results">
+                            <table id="tag-list-table">
+                                <thead>
+                                    <tr>
+                                        <th width="30" class="test-results-heading">&nbsp;</th>
+                                        <th width="750" class="test-results-heading">Tag</th>
+                                        <th width="70" class="test-results-heading">Tests</th>
+                                        <th width="70" class="test-results-heading">Steps</th>
+                                        <th width="65" class="test-results-heading">Stable</th>
+                                        <th width="65" class="test-results-heading">Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td><h3>Add Group for users</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="6d84136e98cc762b341591ede1512116a449e95a1a42545f786d0238c3f69a08.html">Add Group For Users</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">30</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">24.685</td>
+                                    </tr>
+                                    <tr><td><h3>Create group for guest</h3></td></tr>
+
+
+                                    <tr class="test-ERROR">
+                                        <td><img src="images/ignor.png" title="ERROR" class="summary-icon"/><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="a06785b31e9da60805d6c5ee1f5fde0ab6a5bf005328f22346569be5c624259f.html">Create Group For Guest</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">18</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">107.283</td>
+                                    </tr>
+                                    <tr><td><h3>Delete Users</h3></td></tr>
+
+
+                                    <tr class="test-ERROR">
+                                        <td><img src="images/ignor.png" title="ERROR" class="summary-icon"/><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="a998a927e3389f8ad3a709f9e069ab7edc1f3e6ea10a67767a65080f5063ab57.html">Delete Users</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">4</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">14.279</td>
+                                    </tr>
+                                    <tr><td><h3>Form for Admin invalid date</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="6afe2c4bef4347d92e930d4161f573bb088e5050d40cddd36e6191f4727c37ec.html">Form For Admin Invalid Date</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">7</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">15.231</td>
+                                    </tr>
+                                    <tr><td><h3>Guest Page</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="29fdc12f910d9ddeebf13b06a83a02103a5b23c202d2979fea59b62f31ea12bc.html">Guest Page</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">11</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">23.741</td>
+                                    </tr>
+                                    <tr><td><h3>LDAP</h3></td></tr>
+
+
+                                    <tr class="test-IGNORED">
+                                        <td><img src="images/ignor.png" title="IGNORED" class="summary-icon"/><span style="display:none">IGNORED</span></td>
+                                        <td class="IGNORED-text"><a href="9cc93bd7fa8c4dab33ed2aef61edab3be2cbd8d5bf6e2ac5cb19134e745fd0ce.html">Ldap</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-in-progress.gif"  class="summary-icon"/>
+                                            <span style="display:none">0</span>
+                                        </td>
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr><td><h3>Polycom+H323</h3></td></tr>
+
+
+                                    <tr class="test-IGNORED">
+                                        <td><img src="images/ignor.png" title="IGNORED" class="summary-icon"/><span style="display:none">IGNORED</span></td>
+                                        <td class="IGNORED-text"><a href="d69431b152c541b1a88c4122173c35372851eaf404a660f5b718485ad155ac26.html">Polycom+H323</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-in-progress.gif"  class="summary-icon"/>
+                                            <span style="display:none">0</span>
+                                        </td>
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr><td><h3>Registration</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="1419e3783cbd1ed7e1b9f96b4b24c453d3835d1c2087182e16db7d2e17496fae.html">Registration</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">5</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">22.448</td>
+                                    </tr>
+                                    <tr><td><h3>RegistrationEmptyKey</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="e91db91fc61731c226e8030b813bbda2143f5aded7e4b4165bd716debee7727a.html">Registrationemptykey</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">4</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">9.567</td>
+                                    </tr>
+                                    <tr><td><h3>Settings</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="65bad6fc9f8936e432c98579db4b5a3998c74839a5c102bfac7360166904a639.html">Settings</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">18</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">21.913</td>
+                                    </tr>
+                                    <tr><td><h3>Settings Net</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="af94b3abd3a8054ac4d790831321081d2a7e86de17e10a11889c4e4312d2a6ff.html">Settings Net</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">17</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">45.169</td>
+                                    </tr>
+                                    <tr><td><h3>Settings Net with checkbox</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="712223ea2e40ec0baa246402432d58883ab3a1f241cfd14eaf5ac25a3332d701.html">Settings Net With Checkbox</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">5</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">35.962</td>
+                                    </tr>
+                                    <tr><td><h3>SIP - invalid authorization</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="c0de42da1e038862f43893f1d503ddc4a09cbb988191c046c5e1526fd9582655.html">Sip - Invalid Authorization</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">16.753</td>
+                                    </tr>
+                                    <tr><td><h3>SIP - invalid server</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="72296e0833ad712ee8d83d968ecf31cf7627d26a3238ecb85b8240d6eac20dcf.html">Sip - Invalid Server</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">16.781</td>
+                                    </tr>
+                                    <tr><td><h3>SIP - valid date</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="342680b00af51ad6a83b38650bd2f16aa1b421e1c34cd4e8fcb3a818b1bd24dc.html">Sip - Valid Date</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">16.891</td>
+                                    </tr>
+                                    <tr><td><h3>SIP Proxy</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="8d4e216934139c279c725049c505b86360e3ec7d3ec6fe43ceb026fd799bef69.html">Sip Proxy</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">11</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">18.867</td>
+                                    </tr>
+                                    <tr><td><h3>SMTP</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="5df185d03da451119ee218ce08741513510878b2fa01c784673b3b0e3da0ae26.html">Smtp</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">13</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">48.489</td>
+                                    </tr>
+                                    <tr><td><h3>SMTP invalid date</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a058d5b5e0da9baaf6abfa0a33f7aee574b3599859361884a11531dd6cbef95d.html">Smtp Invalid Date</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">11</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">18.009</td>
+                                    </tr>
+                                    <tr><td><h3>System localisation</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="be4ae2071a216395cbccd3e89d8443ef7f1a2b4f73979cbc580817080940ce0d.html">System Localisation</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">17</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">29.561</td>
+                                    </tr>
+                                    <tr><td><h3>Web Security</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="090131202f3e712a2ee88eb4822fe98ab11caf5aadb6a4bc45155f96cf34c4f9.html">Web Security</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">7</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">10.136</td>
+                                    </tr>
+                                    <tr><td><h3>Web Settings</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="62050c0a1f1d7378694d5ef89d97e58f653a0b07f7aea93635b1e73bed58a502.html">Web Settings</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">9</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">12.436</td>
+                                    </tr>
+                                    <tr><td><h3>WebRTC Create Users</h3></td></tr>
+
+
+                                    <tr class="test-ERROR">
+                                        <td><img src="images/ignor.png" title="ERROR" class="summary-icon"/><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="5b7c5feefec74ea66de8f3a888d84a8316078e3c0bcf491fc2163838ab0ecc2a.html">Webrtc Create Users</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">43</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">129.822</td>
+                                    </tr>
+                                    <tr><td><h3>WebRTCGroupConference</h3></td></tr>
+
+
+                                    <tr class="test-SUCCESS">
+                                        <td><img src="images/success.png" title="SUCCESS" class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="bb858a896ee55c4982660fbd0cfe2d20274b2a3fd4fae48ebd617101b54c9c23.html">Webrtcgroupconference</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">28</td>
+
+                                        <td class="bluetext">
+                                            <img src="images/traffic-red.gif"  class="summary-icon"/>
+                                            <span style="display:none">1</span>
+                                        </td>
+                                        <td class="lightgreentext">40.361</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   </td>
+                  </tr>
+                 </table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

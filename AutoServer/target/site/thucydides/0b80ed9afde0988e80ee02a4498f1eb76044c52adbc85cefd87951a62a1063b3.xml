@@ -1,0 +1,37 @@
+<acceptance-test-run title="Test let delete users a nd conference" name="TestLetDeleteUsersANdConference" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21998" timestamp="2015-09-28T04:42:49.451-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Delete Users" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11684">
+    <screenshots>
+      <screenshot image="6a74cdd83b99973673795754aed33761_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1417">
+    <screenshots>
+      <screenshot image="672e3dfc5591c2c00c1f7dd151ea8407_NONE.png"/>
+      <screenshot image="475268605f926394565892cc01288e7b_NONE.png"/>
+    </screenshots>
+    <description>Click link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7188">
+    <screenshots>
+      <screenshot image="9b9401757dadb325aa70989182680a21_NONE.png"/>
+      <screenshot image="6e483117d4b508f1e3933ca8c6572ba7_NONE.png"/>
+    </screenshots>
+    <description>Action hover</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="358">
+    <screenshots>
+      <screenshot image="2f4c0b3e2f66208b286fad3de5232254_NONE.png"/>
+      <screenshot image="4a8d9d014394904b9c79c3efdff953f6_NONE.png"/>
+    </screenshots>
+    <description>Assert delete: &lt;span class=&apos;step-parameter&apos;&gt;Пользователи удалены успешно&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

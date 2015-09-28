@@ -1,0 +1,115 @@
+<acceptance-test-run title="Test localisation" name="TestLocalisation" steps="16" successful="16" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29561" timestamp="2015-09-28T04:41:08.602-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="System localisation" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3834">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="752">
+    <screenshots>
+      <screenshot image="9162feaf783f5125b3c09a702465d0d8_NONE.png"/>
+      <screenshot image="8fbbc9a01e46750c1064eab458af6ee5_NONE.png"/>
+    </screenshots>
+    <description>Click system</description>
+  </test-step>
+  <test-group name="Click language" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b020bdec4e3fb9e6c23db8319d245f20_NONE.png"/>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1233">
+      <screenshots>
+        <screenshot image="b020bdec4e3fb9e6c23db8319d245f20_NONE.png"/>
+        <screenshot image="686abd422dbe9057e9041a2cf4f9d7fd_NONE.png"/>
+      </screenshots>
+      <description>Click language russian</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1558">
+    <screenshots>
+      <screenshot image="72a7cf36fe12154bd9e9b639b63cac03_NONE.png"/>
+      <screenshot image="1419924c47aa9c63bd66f82ca891ddb5_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;2&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1670">
+    <screenshots>
+      <screenshot image="2eaa96500c967b0834efe8c9dfe08dc1_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;3&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1548">
+    <screenshots>
+      <screenshot image="c2404c56e90379d45dda6d2a060b3d02_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;4&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1659">
+    <screenshots>
+      <screenshot image="3afc82e7d9fd8cabfe2fbafc50f4f26d_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;5&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1669">
+    <screenshots>
+      <screenshot image="caa70cc747c8ad2a1598260c6bd692d9_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;6&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1644">
+    <screenshots>
+      <screenshot image="d27fd8a5c4494e9bd7eff1849e4a248c_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;7&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1754">
+    <screenshots>
+      <screenshot image="16d64f6dba36f77f870156d266d56fe3_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;8&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1699">
+    <screenshots>
+      <screenshot image="8b72cff6fd6dcb9df3f1c2fe7fd6d447_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;9&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1738">
+    <screenshots>
+      <screenshot image="cf28846a17cd0767c30351b1d0f8adaf_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;10&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1696">
+    <screenshots>
+      <screenshot image="1ef0d8f0db8327153ec931535ff68f6f_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;11&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1723">
+    <screenshots>
+      <screenshot image="5befdf98bac7c52fdf7b6f7209c07c61_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;12&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1530">
+    <screenshots>
+      <screenshot image="c323eb76352e046255dc25e5fc1a4387_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;13&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1548">
+    <screenshots>
+      <screenshot image="e520435b9cc324b7a11ee69efd6c6470_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;14&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="c47797423231df62c76fd19849a2480ea29a4320908a01da1c75c0f819730d22.html">Test LDAP users </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 05:09</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/cross.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="error-color">Test LDAP users<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">21.68s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="e27089720c9df19791866bfae1e46128320cb391d1027a3754670edce56e3354.html">Ldap (tag)</a>
+                        <a class="tagLink" href="1a6c4622dbb8cc5fe9da5ec80e43a371e377abdbb83c63bd0c7329609a9a01bb.html">Server (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="1d9f1a7075cb99bdb0f139c685347023_NONE.png" alt="" title="Start browser" width="1034"/>
+                <img src="498436f2b3019d88366dfa8afeb1f698_NONE.png" alt="" title="Click LDAP page" width="1366"/>
+                <img src="527dd744cec9b4b25695deab69b01d42_NONE.png" alt="" title="Click LDAP page" width="1366"/>
+                <img src="b5bfaedbb42cce8dae3213791947d214_NONE.png" alt="" title="Click check security" width="1366"/>
+                <img src="09eb183710cf37e0f1be141a26745ca6_NONE.png" alt="" title="Click check security" width="1366"/>
+                <img src="138d1a4b33e60701bb94a42186462b61_NONE.png" alt="" title="Chose manual setting" width="1366"/>
+                <img src="3a27a3e6504f76cc64509959ad7c16eb_NONE.png" alt="" title="Input server LDAP: &lt;span class='step-parameter'&gt;192.168.90.12&lt;/span&gt;" width="1366"/>
+                <img src="5eff695bb646ae0674348726123e7e15_NONE.png" alt="" title="Input DS: &lt;span class='step-parameter'&gt;DC=tst90,DC=loc&lt;/span&gt;" width="1366"/>
+                <img src="f9a41cc535f966193195a7cf3c67bff2_NONE.png" alt="" title="Input DS: &lt;span class='step-parameter'&gt;DC=tst90,DC=loc&lt;/span&gt;" width="1366"/>
+                <img src="2dc7e5095da67e3aa7d80e30ffe7c5c5_NONE.png" alt="" title="Chose type auth" width="1366"/>
+                <img src="c91ba1fdf5cacf595b1ba75664435f6c_NONE.png" alt="" title="Chose type auth" width="1366"/>
+                <img src="19c50fac617b5b88b3ec99834ddd1662_NONE.png" alt="" title="Input name: &lt;span class='step-parameter'&gt;sereda@tst90.loc&lt;/span&gt;" width="1366"/>
+                <img src="2549a5631eba3f1b63d6603ceafd2dae_NONE.png" alt="" title="Input pass: &lt;span class='step-parameter'&gt;Qwerty1&lt;/span&gt;" width="1366"/>
+                <img src="0a3c71617c8d89e8a214df3261847c1f_NONE.png" alt="" title="Input pass: &lt;span class='step-parameter'&gt;Qwerty1&lt;/span&gt;" width="1366"/>
+                <img src="c587652d7babbeea773c77d3d8508940_NONE.png" alt="" title="Enter user group LDAP: &lt;span class='step-parameter'&gt;CN=Sereda-Group,CN=Users,DC=tst90,DC=loc&lt;/span&gt;" width="1366"/>
+                <img src="9fa350e15b58f994869fa4154e2f08e7_NONE.png" alt="" title="Enter user group LDAP: &lt;span class='step-parameter'&gt;CN=Sereda-Group,CN=Users,DC=tst90,DC=loc&lt;/span&gt;" width="1366"/>
+                <img src="9fa350e15b58f994869fa4154e2f08e7_NONE.png" alt="" title="Apply click group" width="1366"/>
+                <img src="412da58ca48e55c371d211ac2cb5abb7_NONE.png" alt="" title="Клик перезагрузка сервера" width="1366"/>
+                <img src="77f9af472c1fa89821ae4522f565e307_NONE.png" alt="" title="Клик перезагрузка сервера" width="1366"/>
+                <img src="25284fb471fa343dd9ca911bde576973_NONE.png" alt="unknown error: Element is not clickable at point (127, 385). Other element would receive the click: &lt;div id='loading-background'&gt;&lt;/div&gt;" title="Click link" width="1366"/>
+                <img src="45b812b3b833ea2feb06a7f10c4adb3e_NONE.png" alt="unknown error: Element is not clickable at point (127, 385). Other element would receive the click: &lt;div id='loading-background'&gt;&lt;/div&gt;" title="Click link" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build UNKNOWN</span>
+</div>
+</body>
+</html>

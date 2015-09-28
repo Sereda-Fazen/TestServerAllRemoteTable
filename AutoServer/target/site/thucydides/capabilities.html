@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Requirements</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <link rel="stylesheet" href="css/core.css"/>
+    <link rel="stylesheet" href="css/link.css"/>
+    <link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+
+    <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css"/>
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="jit/Extras/excanvas.js"></script><![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="jqplot/jquery.jqplot.min.js"></script>
+    <script type="text/javascript" src="jqplot/plugins/jqplot.pieRenderer.min.js"></script>
+
+    <link type="text/css" href="jqueryui/css/start/jquery-ui-1.8.18.custom.css" rel="Stylesheet"/>
+    <script type="text/javascript" src="jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+
+
+    <script class="code" type="text/javascript">$(document).ready(function () {
+        var plot1 = $.jqplot('coverage_pie_chart', [
+            [
+                ['Passing', 0.782609],
+                ['Pending', 0],
+                ['Ignored', 0.086957],
+                ['Failing', 0],
+                ['Errors',  0.130435]
+            ]
+        ], {
+            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
+            seriesColors: ['#30cb23',
+                
+                '#a2f2f2',
+                
+                '#eeeadd',
+                
+                '#f8001f',
+                
+                '#fc6e1f'],
+            seriesDefaults: {
+                renderer: $.jqplot.PieRenderer,
+                trendline: { show: false },
+                rendererOptions: { padding: 8, showDataLabels: true }
+            },
+            legend: {
+                show: true,
+                placement: 'outside',
+                rendererOptions: {
+                    numberRows: 3
+                },
+                location: 's',
+                marginTop: '15px'
+            },
+            series: [
+                {label: '78.3% requirements tested successfully' },
+                {label: '8.7% requirements untested'},
+                {label: '0%} requirements failing'},
+                {label: '13%} requirements with errors'}
+            ]
+        });
+        // Results table
+        $('#req-results-table').dataTable({
+            "aaSorting": [
+                [ 2, "asc" ]
+            ],
+            "bJQueryUI": true,
+            "iDisplayLength": 25
+        });
+        $('#test-results-table').dataTable({
+            "aaSorting": [
+                [ 2, "asc" ]
+            ],
+            "bJQueryUI": true,
+            "iDisplayLength": 25
+        });
+        $('#examples-table').dataTable({
+            "aaSorting": [
+                [ 2, "asc" ]
+            ],
+            "bJQueryUI": true,
+            "iDisplayLength": 25
+        });
+        $("#tabs").tabs();
+        $("#test-tabs").tabs();
+    })
+    ;
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".read-more-link").click(function () {
+                $(this).nextAll("div.read-more-text").toggle();
+                var isrc = $(this).find("img").attr('src');
+                if (isrc == 'images/plus.png') {
+                    $(this).find("img").attr("src", function () {
+                        return "images/minus.png";
+                    });
+                } else {
+                    $(this).find("img").attr("src", function () {
+                        return "images/plus.png";
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+<div id="contenttop">
+    <div class="middlebg">
+        <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > Requirements </span>
+    </div>
+    <div class="rightbg"></div>
+</div>
+
+<div class="clr"></div>
+
+<!--/* starts second table*/-->
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html" >Overall Test Results</a></li>
+        <li><a href="capabilities.html" class="current">Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 28-09-2015 04:41</span>
+    <br style="clear:left"/>
+</div>
+
+<div class="clr"></div>
+
+<div id="beforetable"></div>
+<div id="results-dashboard">
+<div class="middlb">
+<div class="table">
+
+<div id="requirements-summary">
+    <div id="coverage_pie_chart" style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
+    <div id="coverage_summary">
+        <div>
+            <h4>Requirements Overview</h4>
+            <table class="summary-table">
+                <head>
+                    <tr>
+                        <th>Requirement Type</th>
+                        <th>Total</th>
+                        <th>Pass&nbsp;<i class="icon-check"/></th>
+                        <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                        <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                        <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+                        <th>Untested&nbsp;<i class="icon-question"/></th>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <td class="summary-leading-column">Acceptance Criteria (tests)</td>
+                        <td>23</td>
+                        <td>18</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                </body>
+            </table>
+        </div>
+
+
+
+
+
+<div>
+    <h4>Test Result Summary</h4>
+    <table class="summary-table">
+        <head>
+            <tr>
+                <th>Test Type</th>
+                <th>Total</th>
+                <th>Pass&nbsp;<i class="icon-check"/> </th>
+                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+            </tr>
+        </head>
+        <body>
+        <tr>
+            <td class="summary-leading-column">Automated</td>
+            <td>23</td>
+            <td>18 (78%)</td>
+            <td>3 (13%)</td>
+            <td>0 (0%)</td>
+            <td>2 (9%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Manual</td>
+            <td>0</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total</td>
+            <td>23</td>
+            <td>18 (78%)</td>
+            <td>3 (0%)</td>
+            <td>0 (0%)</td>
+            <td>2 (9%)</td>
+        </tr>
+        </body>
+    </table>
+</div>
+    </div>
+</div>
+<div class="clr"></div>
+
+<div id="tabs">
+
+    <div id="test-tabs">
+        <ul>
+            <li><a href="#test-tabs-1">Acceptance Tests (23)</a></li>
+        </ul>
+        <div id="test_list_tests" class="table">
+            <div class="test-results">
+                <table id="test-results-table">
+                    <thead>
+                    <tr>
+                        <th width="30" class="test-results-heading">&nbsp;</th>
+                        <th width="%" class="test-results-heading">Acceptance Tests</th>
+                        <th width="70" class="test-results-heading">Steps</th>
+                        <th width="65" class="test-results-heading">Stable</th>
+                        <th width="100" class="test-results-heading">Duration<br>(seconds)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="b24f718b4e4e0cc885b55187be58251403c976fbc0d2b110ea9764a76cb81128.html" title="">A test registration empty </a>
+                            </td>
+
+                            <td class="lightgreentext">4</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">9.57</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="416ab17c44997c3f54000af04ff358f767d9826295834d2a9883c0d037c48081.html" title="">A test registration key test </a>
+                            </td>
+
+                            <td class="lightgreentext">5</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">22.45</td>
+                        </tr>
+
+
+                        <tr class="test-IGNORED">
+                            <td><img src="images/ignor.png" title="IGNORED"
+                                     class="summary-icon"/><span style="display:none">IGNORED</span></td>
+                            <td class="IGNORED-text"><a
+                                    href="c47797423231df62c76fd19849a2480ea29a4320908a01da1c75c0f819730d22.html" title="">Test LDAP users </a>
+                            </td>
+
+                            <td class="lightgreentext">0</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">0</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="32bceb6137f6379e59d34d65ac752580093a252df696c8d44fd0430bd219fb85.html" title="">Test a settings </a>
+                            </td>
+
+                            <td class="lightgreentext">18</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">21.91</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="a53732b91a75dd691dda34e0d47734410b7fc1c9c2d278def82e27d665708e22.html" title="">Test a settings SMTP for invalid </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">18.01</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="88c30beae19e1ff627cff2d4044aeef21c794bb06ac5bf602b7afb9c53ee4f11.html" title="">Test a settings SMTP for valid </a>
+                            </td>
+
+                            <td class="lightgreentext">13</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">48.49</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="b90b6e727d4165fa8738236eda26592a7882e6d4d238bda67fcd04843b3c38ba.html" title="">Test a settings net </a>
+                            </td>
+
+                            <td class="lightgreentext">17</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">45.17</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="d068d6ad6de2e4fdc0562fbb788f8f65568e3a9ba351239200ca41fd8d266027.html" title="">Test a settings net for check </a>
+                            </td>
+
+                            <td class="lightgreentext">5</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">35.96</td>
+                        </tr>
+
+
+                        <tr class="test-IGNORED">
+                            <td><img src="images/ignor.png" title="IGNORED"
+                                     class="summary-icon"/><span style="display:none">IGNORED</span></td>
+                            <td class="IGNORED-text"><a
+                                    href="256f77e3a4e428a4cbdc7266ec0b58f00b98c3b012a174fb2c35aff422a59f14.html" title="">Test a settings send h323 and polycom </a>
+                            </td>
+
+                            <td class="lightgreentext">0</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">0</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="e0a22616556823ec4b6e593c2c19eaad119b3071af529777d719cb218e81772d.html" title="">Test a settings server proxy </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">18.87</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="eca22b3b21a062bc0f67c40f44386741c714a130332a3442a350cb7e65d47b5d.html" title="">Test a settings sip invalid autorization </a>
+                            </td>
+
+                            <td class="lightgreentext">8</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">16.75</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="935e0e1f5dd753bb67a136a75ffa156e89c48f089db449270742a42df97c294b.html" title="">Test a settings sip invalid server </a>
+                            </td>
+
+                            <td class="lightgreentext">8</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">16.78</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="d85c8f7d92a6d13c5fa67624cbdd09acf11e571ec85b89176d2bad157ae829db.html" title="">Test a settings sip valid date </a>
+                            </td>
+
+                            <td class="lightgreentext">8</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">16.89</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="f2998afbba4abf61f289b0df4fb7c3d7800847afabb7ee1397c758f9f019e81f.html" title="">Test a settings web </a>
+                            </td>
+
+                            <td class="lightgreentext">9</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">12.44</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="5d0e0487fb3454f3e9028611d5de128a026350f460f89f369fcbf3093a5e9799.html" title="">Test a settings web guest page invalid </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">15.23</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="637bcb7332640ca42fdc0c90c8b28b91450e32793efaf8372f83266e3cb86074.html" title="">Test a settings web guest page valid </a>
+                            </td>
+
+                            <td class="lightgreentext">11</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">23.74</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="e9456e104852c5892047177f8fe38136d083cd1ac074614e78a07b81dc5045d8.html" title="">Test a settings web security </a>
+                            </td>
+
+                            <td class="lightgreentext">7</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">10.14</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="0f0a9b7c3f4382d727bc05666fa51e23f58c29c40c8762f5aef052ad8fe75978.html" title="">Test create for users </a>
+                            </td>
+
+                            <td class="lightgreentext">28</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">40.36</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="a7b3194ac6ecc7cf42a4eb0b20270d5b5465f92a101ffbe0413543be73e28053.html" title="Expected enabled element was not enabled
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown">Test create for users for web RTC </a>
+                            </td>
+
+                            <td class="lightgreentext">43</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">129.82</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="d1edb2b9cf329c3ada80ab0289c48705c37518f46328d61366f036d2a34e7d39.html" title="Expected enabled element was not enabled
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown">Test create for web RTC guest </a>
+                            </td>
+
+                            <td class="lightgreentext">18</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">107.28</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="0e61ac9c649c05beb982779402608eecc749c2cb6f2a10cb4ff99712be0efba9.html" title="">Test group for users </a>
+                            </td>
+
+                            <td class="lightgreentext">30</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">24.69</td>
+                        </tr>
+
+
+                        <tr class="test-ERROR">
+                            <td><img src="images/cross.png" title="ERROR"
+                                     class="summary-icon"/><span style="display:none">ERROR</span></td>
+                            <td class="ERROR-text"><a
+                                    href="0b80ed9afde0988e80ee02a4498f1eb76044c52adbc85cefd87951a62a1063b3.html" title="Expected enabled element was not enabled
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'chivas16', ip: '192.168.90.16', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown">Test let delete users a nd conference </a>
+                            </td>
+
+                            <td class="lightgreentext">4</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">14.28</td>
+                        </tr>
+
+
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
+                                     class="summary-icon"/><span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text"><a
+                                    href="2eeaf289a676814827beffa0737c3aefa8b4a1a2d429a5273506385cbcb612b9.html" title="">Test localisation </a>
+                            </td>
+
+                            <td class="lightgreentext">17</td>
+                            <td class="bluetext">
+                                <img src="images/traffic-in-progress.gif"
+                                     title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                     class="summary-icon"/>
+                                <span style="display:none">0</span>
+                            </td>
+                            <td class="lightgreentext">29.56</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build 19</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<acceptance-test-run title="Test a settings SMTP for valid" name="TestASettingsSMTPForValid" steps="13" successful="13" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="48489" timestamp="2015-09-28T04:32:52.587-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="SMTP" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="5927">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2596">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="dc34d749cd82a1078093d3dd61ba7291_NONE.png"/>
+    </screenshots>
+    <description>Click smtp page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="542">
+    <screenshots>
+      <screenshot image="0713231ff2aacfac506cce063a67d937_NONE.png"/>
+    </screenshots>
+    <description>Check type auth</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="503">
+    <screenshots>
+      <screenshot image="ea213c2061e1d01fde694c8254983c8e_NONE.png"/>
+      <screenshot image="f8e9d9eb0a3aad1150775e4a452b3894_NONE.png"/>
+    </screenshots>
+    <description>Enter host: &lt;span class=&apos;step-parameter&apos;&gt;mail.trueconf.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="423">
+    <screenshots>
+      <screenshot image="5b0d78e2f31cd26806ef9802405ba64f_NONE.png"/>
+      <screenshot image="e357b4b66575605664f06cedd1c67ea1_NONE.png"/>
+    </screenshots>
+    <description>Enter port: &lt;span class=&apos;step-parameter&apos;&gt;465&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="533">
+    <screenshots>
+      <screenshot image="32822ba0c5923b878fd27694f549011c_NONE.png"/>
+    </screenshots>
+    <description>Enter login SMTP: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="545">
+    <screenshots>
+      <screenshot image="35219e3e70004e74db4e3ece0c7ff6cf_NONE.png"/>
+      <screenshot image="72ba7f601165325b96036b1ed07fd9c0_NONE.png"/>
+    </screenshots>
+    <description>Enter pass SMTP: &lt;span class=&apos;step-parameter&apos;&gt;2Jp6mWTd&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="373">
+    <screenshots>
+      <screenshot image="eb46ab91fcb25d0cc849181b43d3fafd_NONE.png"/>
+      <screenshot image="a73930641438fe30d8dc2c1e553efe78_NONE.png"/>
+    </screenshots>
+    <description>Click ssl</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="541">
+    <screenshots>
+      <screenshot image="97dcd88a092a1771a9169f108614ef69_NONE.png"/>
+    </screenshots>
+    <description>Enter email admin: &lt;span class=&apos;step-parameter&apos;&gt;sereda@trueconf.ua&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="302">
+    <screenshots>
+      <screenshot image="3ca9501a087002b0cf93887d9ca279cd_NONE.png"/>
+      <screenshot image="aa80545a510d2786c12d7059aa36fa2a_NONE.png"/>
+    </screenshots>
+    <description>Click connected stmp</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="571">
+    <screenshots>
+      <screenshot image="c5d8c77d1022ff95f106201bf5c86813_NONE.png"/>
+      <screenshot image="2287a25a26c1b9383e4bfc63fa882fbd_NONE.png"/>
+    </screenshots>
+    <description>Choose all checks</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="410">
+    <screenshots>
+      <screenshot image="be0ffc45668eaf38f58092f301ee7e65_NONE.png"/>
+      <screenshot image="5f0e45049836060c11b7c37c0f044e4b_NONE.png"/>
+    </screenshots>
+    <description>Click apply smtp</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="25849">
+    <screenshots>
+      <screenshot image="8c06fd237daa06af0572c13472e8318b_NONE.png"/>
+    </screenshots>
+    <description>Клик перезагрузка сервера</description>
+  </test-step>
+</acceptance-test-run>

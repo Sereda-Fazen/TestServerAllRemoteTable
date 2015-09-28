@@ -1,0 +1,121 @@
+<acceptance-test-run title="Test create for web RTC guest" name="TestCreateForWebRTCGuest" steps="18" successful="12" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="107283" timestamp="2015-09-28T04:38:42.323-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Create group for guest" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4624">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1000">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="42d90f4912f29b5f418df86ba4e267b0_NONE.png"/>
+    </screenshots>
+    <description>Click group conf</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1281">
+    <screenshots>
+      <screenshot image="389d202e37aa4d1757f82d38d851f81e_NONE.png"/>
+    </screenshots>
+    <description>Click create conf</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1228">
+    <screenshots>
+      <screenshot image="43d8e44e322f4ba5dc2d1b5a4b8f6d1b_NONE.png"/>
+      <screenshot image="b5f9087f87176ad503be3b4b96f78240_NONE.png"/>
+    </screenshots>
+    <description>New create group public</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="524">
+    <screenshots>
+      <screenshot image="4422746bfaf398b0e25603fd2961c233_NONE.png"/>
+      <screenshot image="4ce795a2b3da0eab8b2d01341e2fed9a_NONE.png"/>
+    </screenshots>
+    <description>Check conference mode</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="486">
+    <screenshots>
+      <screenshot image="0e237d272c4b22047fb848db764d5c0b_NONE.png"/>
+      <screenshot image="5a82573fee9667fdae135e49182db230_NONE.png"/>
+    </screenshots>
+    <description>Enter name conference group: &lt;span class=&apos;step-parameter&apos;&gt;Test group for Guest&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="476">
+    <screenshots>
+      <screenshot image="c5c6de6e265584f34ae402df58dab778_NONE.png"/>
+      <screenshot image="7241aff31f900cb1d1c01b1dd75b4b53_NONE.png"/>
+    </screenshots>
+    <description>Check host for group</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="626">
+    <screenshots>
+      <screenshot image="d989fa64d6ebdab86264ee75e55c241f_NONE.png"/>
+      <screenshot image="dd53e85d8591ef08175b2f5e28d2c911_NONE.png"/>
+    </screenshots>
+    <description>Click checkbox allow</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2777">
+    <screenshots>
+      <screenshot image="0eb1b591c503f363667f5e40d77c2bb8_NONE.png"/>
+      <screenshot image="684526b2224c4f2cfc441f7e7985aabb_NONE.png"/>
+    </screenshots>
+    <description>Enter description: &lt;span class=&apos;step-parameter&apos;&gt;Test description&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="277">
+    <screenshots>
+      <screenshot image="419e6cb6ba9b09f327f166149b36ddff_NONE.png"/>
+    </screenshots>
+    <description>Click save conference</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1443">
+    <screenshots>
+      <screenshot image="0836371385b810814a8da4eb6b9c7faa_NONE.png"/>
+      <screenshot image="b5952addf3583ce3d5ec9c630a63cba3_NONE.png"/>
+    </screenshots>
+    <description>Expected result for group guest: &lt;span class=&apos;step-parameter&apos;&gt;Группа добавлена&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="83729">
+    <screenshots>
+      <screenshot image="b7362298062b2ec8971102f5bb846555_NONE.png"/>
+    </screenshots>
+    <description>Edit group rtc guest</description>
+  </test-step>
+  <test-step result="ERROR" duration="5433">
+    <screenshots>
+      <screenshot image="b0f2535e1f4887e77a2fe09c79dd681f_NONE.png"/>
+      <screenshot image="a080d61ba452baa1026e39991b491d82_NONE.png"/>
+    </screenshots>
+    <description>Expected result rtc</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown&#xd;
+[page.GroupConferention.WebRtc.setClickWerRTC(WebRtc.java:114), steps.GroupConferenceSteps.WebRTCSteps.expectedResultRtc(WebRTCSteps.java:37), tests.TestAuth.TestCreateForWebRTCGuest(TestAuth.java:210)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="3">
+    <description>Click enter how guest: &lt;span class=&apos;step-parameter&apos;&gt;tester&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Expected result for guest name: &lt;span class=&apos;step-parameter&apos;&gt;Гость присоединился&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Click quite from guest user</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Expected result for exit from guest page: &lt;span class=&apos;step-parameter&apos;&gt;Гость вышел из конференции&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Expected result delete group: &lt;span class=&apos;step-parameter&apos;&gt;Группа успешно удалена&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="0" name="tests.TestAuth" time="678.78" errors="3" skipped="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AutomationTestServer"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\tc_admin\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3dd3ccb86247fc2d"/>
+    <property name="POM_ARTIFACTID" value="Test"/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Test"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\tc_admin\AppData\Local\Temp\2"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="user.name" value="tc_admin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#19"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\tc_admin\AppData\Local"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="tc_admin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="19"/>
+    <property name="CLIENTNAME" value="SEREDA"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\tc_admin\AppData\Local\Temp\2"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="CHIVAS16"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_60"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\tc_admin"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="CHIVAS16"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="Test"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Users\tc_admin"/>
+    <property name="BUILD_TAG" value="jenkins-AutomationTestServer-19"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3dd3ccb86247fc2d"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\tc_admin"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.2.2/bin;C:\Program Files\Java\jdk1.8.0_60/bin;C:\Program Files\Java\jdk1.8.0_60/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.2.2\bin;C:\Program Files\Java\jdk1.8.0_60\bin;."/>
+    <property name="webdriver" value="chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\tc_admin\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.2.2"/>
+    <property name="java.class.path" value="C:\Users\tc_admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\apache-maven-3.2.2\boot\plexus-classworlds-2.5.1.jar;C:\apache-maven-3.2.2/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\apache-maven-3.2.2 C:\Users\tc_admin\.jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Users\tc_admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\tc_admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 32022"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_60/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.2.2\bin;C:\Program Files\Java\jdk1.8.0_60\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_60/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="RDP-Tcp#9"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.2.2"/>
+    <property name="java.io.tmpdir" value="C:\Users\tc_admin\AppData\Local\Temp\2\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\tc_admin\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.2.2/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AutomationTestServer/19/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\tc_admin\.jenkins\jobs\AutoTestForServer"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AutomationTestServer/"/>
+    <property name="LOGONSERVER" value="\\CHIVAS16"/>
+    <property name="USERDOMAIN" value="CHIVAS16"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.2.2"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="19"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Program Files (x86)"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\tc_admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\tc_admin\.jenkins\jobs\AutomationTestServer\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Users\tc_admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="tests.TestAuth" name="ATestRegistrationEmpty" time="9.917"/>
+  <testcase classname="tests.TestAuth" name="ATestRegistrationKeyTest" time="22.458"/>
+  <testcase classname="tests.TestAuth" name="TestASettings" time="21.915"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsNet" time="45.177"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsNetForCheck" time="35.958"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSMTPForInvalid" time="18.006"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSMTPForValid" time="48.508"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSendH323AndPolycom" time="0">
+    <skipped/>
+    <system-err>[main] INFO net.thucydides.core.Thucydides - Test Suite Started: Test auth
+[main] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: TestASettingsSendH323AndPolycom
+--------------------------------------------------------------------
+[main] INFO net.thucydides.core.Thucydides - TEST NUMBER: 8
+[main] INFO net.thucydides.core.Thucydides - TEST IGNORED
+[main] INFO net.thucydides.core.Thucydides - TEST IGNORED
+</system-err>
+  </testcase>
+  <testcase classname="tests.TestAuth" name="TestASettingsServerProxy" time="18.868"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSipInvalidAutorization" time="16.755"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSipInvalidServer" time="16.778"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsSipValidDate" time="16.892"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsWeb" time="12.43"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsWebGuestPageInvalid" time="15.245"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsWebGuestPageValid" time="23.747"/>
+  <testcase classname="tests.TestAuth" name="TestASettingsWebSecurity" time="10.133"/>
+  <testcase classname="tests.TestAuth" name="TestCreateForUsers" time="40.364"/>
+  <testcase classname="tests.TestAuth" name="TestCreateForUsersForWebRTC" time="129.821">
+    <error message="Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@692e028d
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@692e028d
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at page.GroupConferention.GroupConference.setEditGroup(GroupConference.java:385)
+	at steps.GroupConferenceSteps.GroupConferenceSteps.editGroup(GroupConferenceSteps.java:197)
+	at tests.TestAuth.TestCreateForUsersForWebRTC(TestAuth.java:368)
+</error>
+    <system-out>org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@692e028d
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+</system-out>
+    <system-err>[main] INFO net.thucydides.core.Thucydides - Test Suite Started: Test auth
+[main] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: TestCreateForUsersForWebRTC
+--------------------------------------------------------------------
+[main] INFO net.thucydides.core.Thucydides - TEST NUMBER: 18
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: start_browser
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 6812
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: start_browser
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickGroupConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickGroupConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickCreateConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickCreateConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: newCreateGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: newCreateGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: checkConferenceMode
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: checkConferenceMode
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: enterNameConferenceGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: enterNameConferenceGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: checkHostForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: checkHostForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: choosePeopleConferenceAll
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: choosePeopleConferenceAll
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseForSearch
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseForSearchGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseForSearchGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseForSearchGroup1
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseForSearchGroup1
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseForSearch
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: choosePeopleConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseUser1
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseUser1
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseUser2
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseUser2
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: deleteUser2
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: deleteUser2
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: choosePeopleConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseUsersForIdAndMail
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chosePeopleID
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chosePeopleID
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chosePeopleMail
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chosePeopleMail
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseUsersForIdAndMail
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseDataConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseDataConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseDataForNonrecurrent
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseDataClick
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseDataClick
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseCheckHours
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseCheckHours
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseCheckMinute
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseCheckMinute
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseCloseTime
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseCloseTime
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseClickRegion
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseClickRegion
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseDataForNonrecurrent
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseDataForEveryDay
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseEveryWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseEveryWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseNoWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseNoWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseCheckMonday
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseCheckMonday
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseTimeForWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseTimeForWeek
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: chooseTimeNow
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseTimeNow
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: chooseDataForEveryDay
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: enterDescription
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: enterDescription
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickSaveConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickSaveConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: expectedResultForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: expectedResultForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: editGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: editGroup - Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: runGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: clickGroupConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: editGroupRtc
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultRtc
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: inputLoginForRTC
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: clickEnterExpectedResult
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultForExitFromUser
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultDeleteGroup
+</system-err>
+  </testcase>
+  <testcase classname="tests.TestAuth" name="TestCreateForWebRTCGuest" time="107.285">
+    <error message="Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@6c9320c2
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@6c9320c2
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at page.GroupConferention.WebRtc.setClickWerRTC(WebRtc.java:114)
+	at steps.GroupConferenceSteps.WebRTCSteps.expectedResultRtc(WebRTCSteps.java:37)
+	at tests.TestAuth.TestCreateForWebRTCGuest(TestAuth.java:210)
+</error>
+    <system-out>org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@6c9320c2
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+</system-out>
+    <system-err>[main] INFO net.thucydides.core.Thucydides - Test Suite Started: Test auth
+[main] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: TestCreateForWebRTCGuest
+--------------------------------------------------------------------
+[main] INFO net.thucydides.core.Thucydides - TEST NUMBER: 19
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: start_browser
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 38177
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: start_browser
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickGroupConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickGroupConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickCreateConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickCreateConf
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: newCreateGroupPublic
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: newCreateGroupPublic
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: checkConferenceMode
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: checkConferenceMode
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: enterNameConferenceGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: enterNameConferenceGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: checkHostForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: checkHostForGroup
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickCheckboxAllow
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickCheckboxAllow
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: enterDescription
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: enterDescription
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickSaveConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickSaveConference
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: expectedResultForGroupGuest
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: expectedResultForGroupGuest
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: editGroupRtcGuest
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: editGroupRtcGuest
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: expectedResultRtc
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: expectedResultRtc - Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: clickEnterHowGuest
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultForGuestName
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: clickQuiteFromGuestUser
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultForExitFromGuestPage
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: expectedResultDeleteGroup
+</system-err>
+  </testcase>
+  <testcase classname="tests.TestAuth" name="TestGroupForUsers" time="24.685"/>
+  <testcase classname="tests.TestAuth" name="TestLDAPUsers" time="0">
+    <skipped/>
+    <system-err>[main] INFO net.thucydides.core.Thucydides - Test Suite Started: Test auth
+[main] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: TestLDAPUsers
+--------------------------------------------------------------------
+[main] INFO net.thucydides.core.Thucydides - TEST NUMBER: 21
+[main] INFO net.thucydides.core.Thucydides - TEST IGNORED
+[main] INFO net.thucydides.core.Thucydides - TEST IGNORED
+</system-err>
+  </testcase>
+  <testcase classname="tests.TestAuth" name="TestLetDeleteUsersANdConference" time="14.28">
+    <error message="Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@44f24a20
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@44f24a20
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at page.Users.UsersPage.setHover(UsersPage.java:161)
+	at steps.UsersSteps.UsersSteps.actionHover(UsersSteps.java:61)
+	at tests.TestAuth.TestLetDeleteUsersANdConference(TestAuth.java:412)
+</error>
+    <system-out>org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@44f24a20
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+</system-out>
+    <system-err>[main] INFO net.thucydides.core.Thucydides - Test Suite Started: Test auth
+[main] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: TestLetDeleteUsersANdConference
+--------------------------------------------------------------------
+[main] INFO net.thucydides.core.Thucydides - TEST NUMBER: 22
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: start_browser
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 37071
+Only local connections are allowed.
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: start_browser
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: clickLink
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLink
+[main] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: actionHover
+[main] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: actionHover - Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;chivas16&apos;, ip: &apos;192.168.90.16&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: AssertDelete
+</system-err>
+  </testcase>
+  <testcase classname="tests.TestAuth" name="TestLocalisation" time="29.558"/>
+</testsuite>

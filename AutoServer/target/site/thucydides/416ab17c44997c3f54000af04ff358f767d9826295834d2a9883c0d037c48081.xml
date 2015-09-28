@@ -1,0 +1,42 @@
+<acceptance-test-run title="A test registration key test" name="ATestRegistrationKeyTest" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22448" timestamp="2015-09-28T04:30:28.900-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Registration" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4570">
+    <screenshots>
+      <screenshot image="3ff07341620ac358da4e9d23d62c9062_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="372">
+    <screenshots>
+      <screenshot image="100b05fadc0e67fccc32e58c5110b946_NONE.png"/>
+      <screenshot image="4b2bbd942823d1724ea4275a9a64ae4c_NONE.png"/>
+    </screenshots>
+    <description>Click edit</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="616">
+    <screenshots>
+      <screenshot image="c3913cdf12b8719286a0b97aba906ce5_NONE.png"/>
+    </screenshots>
+    <description>Input key for registration: &lt;span class=&apos;step-parameter&apos;&gt;RUBH8-Y3VW-LY9B-HFHQ&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1341">
+    <screenshots>
+      <screenshot image="5fb8bbdafaed3223335966eb5aa76cde_NONE.png"/>
+    </screenshots>
+    <description>Click the button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="13450">
+    <screenshots>
+      <screenshot image="73ff3ef4eb81a8c458e15c9ab7df5212_NONE.png"/>
+      <screenshot image="f103179eac07fffe9e0b1e27468f5053_NONE.png"/>
+    </screenshots>
+    <description>Expected result: &lt;span class=&apos;step-parameter&apos;&gt;Сервер успешно зарегистрирован&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,126 @@
+<acceptance-test-run title="Test a settings" name="TestASettings" steps="16" successful="16" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="21913" timestamp="2015-09-28T04:30:51.408-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Settings" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3942">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1870">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+      <screenshot image="e1a193a810bd8b2768734301cc0da37e_NONE.png"/>
+    </screenshots>
+    <description>Check all language: &lt;span class=&apos;step-parameter&apos;&gt;1&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1092">
+    <screenshots>
+      <screenshot image="e1a193a810bd8b2768734301cc0da37e_NONE.png"/>
+    </screenshots>
+    <description>Клик на ссылку - &lt;strong&gt;Настройки&lt;/strong&gt;</description>
+  </test-step>
+  <test-group name="Выбор папки" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ba2ff1b9fe93d2cde5b4fa18f879d107_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="419">
+      <screenshots>
+        <screenshot image="ba2ff1b9fe93d2cde5b4fa18f879d107_NONE.png"/>
+      </screenshots>
+      <description>Клик на путь</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="362">
+      <screenshots>
+        <screenshot image="e07341188e90b8983799b40442e67634_NONE.png"/>
+        <screenshot image="00160ba27766d9265ac36c4d4e318766_NONE.png"/>
+      </screenshots>
+      <description>Ввод в путь</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="304">
+      <screenshots>
+        <screenshot image="62629bf6246d6a685637a32fa338f54f_NONE.png"/>
+      </screenshots>
+      <description>Выбор папки</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="350">
+      <screenshots>
+        <screenshot image="37c425776774a379423c7327e89eba10_NONE.png"/>
+        <screenshot image="9352833ddcf21daf9f4e3d6fa6cc43a7_NONE.png"/>
+      </screenshots>
+      <description>Сохранить папку</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1087">
+      <screenshots>
+        <screenshot image="9352833ddcf21daf9f4e3d6fa6cc43a7_NONE.png"/>
+        <screenshot image="b154f3e5f7dcd37518f3fefe23338ac2_NONE.png"/>
+      </screenshots>
+      <description>Применить</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="352">
+    <screenshots>
+      <screenshot image="a0fa23cc6738f423b9bdb7c55d066219_NONE.png"/>
+      <screenshot image="9ea47c15ad7a96d2e0c217b61e9f6131_NONE.png"/>
+    </screenshots>
+    <description>Клик чекбокс</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5294">
+    <screenshots>
+      <screenshot image="4f3e975b1186909362f81853117783b4_NONE.png"/>
+      <screenshot image="9753e5f2cd1e5bf8ac69a7262e7ba8a8_NONE.png"/>
+    </screenshots>
+    <description>Конфигурации</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="302">
+    <screenshots>
+      <screenshot image="9753e5f2cd1e5bf8ac69a7262e7ba8a8_NONE.png"/>
+    </screenshots>
+    <description>Приложения</description>
+  </test-step>
+  <test-group name="Настройки приложения" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9753e5f2cd1e5bf8ac69a7262e7ba8a8_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="408">
+      <screenshots>
+        <screenshot image="7862158d111e79ce999b954721b0981e_NONE.png"/>
+      </screenshots>
+      <description>Ввод ключа для гостевых соединений</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="566">
+      <screenshots>
+        <screenshot image="d22c6c45394c603e00788065209afd27_NONE.png"/>
+        <screenshot image="0f259fdb2ff8ca73ee61ce4a03cde887_NONE.png"/>
+      </screenshots>
+      <description>Выбор FPS пользователя</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2647">
+      <screenshots>
+        <screenshot image="0f259fdb2ff8ca73ee61ce4a03cde887_NONE.png"/>
+        <screenshot image="1adf9fd1ef9919aad721867051ffd037_NONE.png"/>
+      </screenshots>
+      <description>Выбор ограничение размера кадра в пикселях</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="537">
+    <screenshots>
+      <screenshot image="1adf9fd1ef9919aad721867051ffd037_NONE.png"/>
+      <screenshot image="9c1532a767d762ce4970ac5b73b12b57_NONE.png"/>
+    </screenshots>
+    <description>Клик &apos;Сохранить&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="332">
+    <screenshots>
+      <screenshot image="8902aa1d36d6f46e51a50d34f916a22a_NONE.png"/>
+      <screenshot image="0dd1c16a42fea4159ce420d127e8e0dc_NONE.png"/>
+    </screenshots>
+    <description>Ожидаемый результат - &lt;strong&gt;Настройки сохранены&lt;/strong&gt;</description>
+  </test-step>
+</acceptance-test-run>

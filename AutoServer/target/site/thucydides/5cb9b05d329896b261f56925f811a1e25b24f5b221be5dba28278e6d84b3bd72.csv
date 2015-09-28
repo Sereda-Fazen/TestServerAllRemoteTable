@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Server","Test create for users for web RTC","ERROR","2015-09-28T11:36:32.489Z","0.0","129.82"
+"Server","Test create for web RTC guest","ERROR","2015-09-28T11:38:42.323Z","0.0","107.28"
+"Server","Test let delete users a nd conference","ERROR","2015-09-28T11:40:54.309Z","0.0","14.28"

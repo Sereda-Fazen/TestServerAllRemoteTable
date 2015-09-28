@@ -1,0 +1,184 @@
+<acceptance-test-run title="Test create for users" name="TestCreateForUsers" steps="21" successful="21" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="40361" timestamp="2015-09-28T04:35:52.099-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="WebRTCGroupConference" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7235">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1255">
+    <screenshots>
+      <screenshot image="5034d482e216964e76c8daeda8011178_NONE.png"/>
+    </screenshots>
+    <description>Click link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="953">
+    <screenshots>
+      <screenshot image="569c0d9611d1808232cbb5a27a1d11cf_NONE.png"/>
+      <screenshot image="54bb5e10ed7cd818d56d68f413a3e3a2_NONE.png"/>
+    </screenshots>
+    <description>Click button add user</description>
+  </test-step>
+  <test-group name="Add new user in true conf: &lt;span class=&apos;step-parameter&apos;&gt;fazen&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9425e48bf26c8d08fdd8bf9a0a1ac6a3_NONE.png"/>
+      <screenshot image="9d2fa0124997748ef7c4cddf8d82e3e2_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="370">
+      <screenshots>
+        <screenshot image="fe95bbcebce88084e184260db1340bbb_NONE.png"/>
+        <screenshot image="664c1e26f017593dc8e232f6e3b09d13_NONE.png"/>
+      </screenshots>
+      <description>Input true conf ID user: &lt;span class=&apos;step-parameter&apos;&gt;fazen&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Input pass: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5c4ff24ef210ee05cffc5f3dd55d145c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="644">
+      <screenshots>
+        <screenshot image="6937368852c10be2a848750ab1123573_NONE.png"/>
+      </screenshots>
+      <description>Input true conf pass user: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="374">
+    <screenshots>
+      <screenshot image="4881aa7fed39e5727cbf9faafca7eb28_NONE.png"/>
+    </screenshots>
+    <description>Click add button user</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5353">
+    <screenshots>
+      <screenshot image="e5b2121e047a377e4d41be86a4bc0041_NONE.png"/>
+      <screenshot image="4d65947b539fbf5468783fd3c0e5c96f_NONE.png"/>
+    </screenshots>
+    <description>Expected result: &lt;span class=&apos;step-parameter&apos;&gt;Пользователь добавлен&lt;/span&gt;</description>
+  </test-step>
+  <test-group name="Add new user in true conf: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4d65947b539fbf5468783fd3c0e5c96f_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="456">
+      <screenshots>
+        <screenshot image="6a6ea88633352f8b9e26068f76eb9500_NONE.png"/>
+      </screenshots>
+      <description>Input true conf ID user: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Input pass: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6a6ea88633352f8b9e26068f76eb9500_NONE.png"/>
+      <screenshot image="c442e9815ad4bea0b095eafa2bcaab63_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="678">
+      <screenshots>
+        <screenshot image="6a6ea88633352f8b9e26068f76eb9500_NONE.png"/>
+        <screenshot image="5351550f410acac3139d6bbff023b50f_NONE.png"/>
+      </screenshots>
+      <description>Input true conf pass user: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="394">
+    <screenshots>
+      <screenshot image="cd9c29a0529df5a94c3f2cbdaf6e8cdd_NONE.png"/>
+    </screenshots>
+    <description>Click add button user</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5344">
+    <screenshots>
+      <screenshot image="4dbac6b27839ebdea04819595af44115_NONE.png"/>
+      <screenshot image="8d99e2fd3dcda854f4f99a0625a96793_NONE.png"/>
+    </screenshots>
+    <description>Expected result: &lt;span class=&apos;step-parameter&apos;&gt;Пользователь второй добавлен&lt;/span&gt;</description>
+  </test-step>
+  <test-group name="Add new user in true conf: &lt;span class=&apos;step-parameter&apos;&gt;alex&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6ab8b06db8989f998610df6f2780b975_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="397">
+      <screenshots>
+        <screenshot image="3134dfcd3c1ac529bca153d6ca8482eb_NONE.png"/>
+      </screenshots>
+      <description>Input true conf ID user: &lt;span class=&apos;step-parameter&apos;&gt;alex&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Input pass: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6c43e370f13ce694e39b541e28db8252_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="636">
+      <screenshots>
+        <screenshot image="9fde74e2369f45fd4da08c8752ee2296_NONE.png"/>
+      </screenshots>
+      <description>Input true conf pass user: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="317">
+    <screenshots>
+      <screenshot image="71519592a1ccf0572df80fbc4333c2bd_NONE.png"/>
+    </screenshots>
+    <description>Click add button user</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5418">
+    <screenshots>
+      <screenshot image="5d8b53d66ab0f528b3ed12234668a21a_NONE.png"/>
+      <screenshot image="b768be4c58c8044d74c8a0dfe991f80a_NONE.png"/>
+    </screenshots>
+    <description>Expected result: &lt;span class=&apos;step-parameter&apos;&gt;Пользователь третий добавлен&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1030">
+    <screenshots>
+      <screenshot image="4559cfceafd97f2bc0d4f8b623843d0b_NONE.png"/>
+    </screenshots>
+    <description>Click return</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="378">
+    <screenshots>
+      <screenshot image="aa111138572a9668dd1902f38de5f7b3_NONE.png"/>
+      <screenshot image="2e141999567038565423fd892f87205c_NONE.png"/>
+    </screenshots>
+    <description>Input search user</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1050">
+    <screenshots>
+      <screenshot image="ea40490ea858a0a6cc68c31ad261da52_NONE.png"/>
+      <screenshot image="611f947fd9dac47582074f81fc816d0b_NONE.png"/>
+    </screenshots>
+    <description>Click update</description>
+  </test-step>
+  <test-group name="Edit user: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="aa111138572a9668dd1902f38de5f7b3_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1189">
+      <screenshots>
+        <screenshot image="aa111138572a9668dd1902f38de5f7b3_NONE.png"/>
+        <screenshot image="2cd84977b344fd2b51f527e87910b09f_NONE.png"/>
+      </screenshots>
+      <description>Click edit user</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="421">
+      <screenshots>
+        <screenshot image="b51b6628baf6e78b83cba69126fc969b_NONE.png"/>
+        <screenshot image="08defe39f6240831bb390d617e48c724_NONE.png"/>
+      </screenshots>
+      <description>Input last name: &lt;span class=&apos;step-parameter&apos;&gt;sereda&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3335">
+      <screenshots>
+        <screenshot image="08defe39f6240831bb390d617e48c724_NONE.png"/>
+        <screenshot image="aa111138572a9668dd1902f38de5f7b3_NONE.png"/>
+      </screenshots>
+      <description>Click save user</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

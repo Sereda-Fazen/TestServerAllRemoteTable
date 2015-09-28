@@ -1,0 +1,78 @@
+<acceptance-test-run title="Test a settings web guest page valid" name="TestASettingsWebGuestPageValid" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23741" timestamp="2015-09-28T04:35:18.184-07:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Guest Page" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3852">
+    <screenshots>
+      <screenshot image="bf4e8825205307e2700b9721390b7732_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-group name="Выбор загруски для ОС" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6ac12b6d1d7cb4e4704cb3c42482a040_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="411">
+      <screenshots>
+        <screenshot image="a7058688675e6068cc44755277937e38_NONE.png"/>
+      </screenshots>
+      <description>Клик на загрузку &apos;TrueConf Client для Windows&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="397">
+      <screenshots>
+        <screenshot image="a7058688675e6068cc44755277937e38_NONE.png"/>
+      </screenshots>
+      <description>Клик на загрузку &apos;TrueConf Client для Mac OS&apos;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2483">
+      <screenshots>
+        <screenshot image="a7058688675e6068cc44755277937e38_NONE.png"/>
+        <screenshot image="6ac12b6d1d7cb4e4704cb3c42482a040_NONE.png"/>
+      </screenshots>
+      <description>Клик на загрузку &apos;TrueConf для Android&apos;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Клик  &apos;Вход для администратора&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="df77c4702feb462635d904e121fc19b3_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1071">
+      <screenshots>
+        <screenshot image="6fc7c52cf2f7a85d9b8b02b88553c1d6_NONE.png"/>
+      </screenshots>
+      <description>Ввод</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="473">
+      <screenshots>
+        <screenshot image="6fc7c52cf2f7a85d9b8b02b88553c1d6_NONE.png"/>
+        <screenshot image="304d76eb808f5332eb34c302bb7d4cc0_NONE.png"/>
+      </screenshots>
+      <description>Ввод валидного логина</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="670">
+      <screenshots>
+        <screenshot image="304d76eb808f5332eb34c302bb7d4cc0_NONE.png"/>
+        <screenshot image="bb7fa021c6f825ff3e92b4e17bb942ed_NONE.png"/>
+      </screenshots>
+      <description>Ввод пароля</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1431">
+      <screenshots>
+        <screenshot image="cb3932a71612bdd82139350c7076081f_NONE.png"/>
+        <screenshot image="97357d5c5bff5806ec0744a63a26e5f3_NONE.png"/>
+      </screenshots>
+      <description>Клик &apos;Войти&apos;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="10537">
+    <screenshots>
+      <screenshot image="df77c4702feb462635d904e121fc19b3_NONE.png"/>
+    </screenshots>
+    <description>Ожидаемый результат</description>
+  </test-step>
+</acceptance-test-run>
